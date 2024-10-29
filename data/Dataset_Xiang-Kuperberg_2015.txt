@@ -1,0 +1,721 @@
+ITEM_ID	SENT_ID	SENTENCE	CONDITION	TARGET_WORD
+1	0	Olivia bought a German shepherd. The dog was unpredictable and violent. It bit her hand. 	PLAUS_NOCONN	bit
+1	1	Olivia bought a German shepherd. The dog was docile and friendly. It bit her hand. 	IMPLAUS_NOCONN	bit
+1	2	Olivia bought a German shepherd. The dog was unpredictable and violent. Even so, it bit her hand. 	PLAUS_CONN	bit
+1	3	Olivia bought a German shepherd. The dog was docile and friendly. Even so, it bit her hand. 	IMPLAUS_CONN	bit
+2	4	Claude rushed back to the restaurant. He had lost his wallet somewhere. He felt incredibly tense all day. 	PLAUS_NOCONN	tense
+2	5	Claude rushed back to the restaurant. Thank goodness he found his wallet under the table. He felt incredibly tense all day. 	IMPLAUS_NOCONN	tense
+2	6	Claude rushed back to the restaurant. He had lost his wallet somewhere. Even so, he felt incredibly tense all day. 	PLAUS_CONN	tense
+2	7	Claude rushed back to the restaurant. Thank goodness he found his wallet under the table. Even so, he felt incredibly tense all day. 	IMPLAUS_CONN	tense
+3	8	Charlotte pushed her grocery cart over the potholes. The eggs bounced around in the bag. They broke inside their carton. 	PLAUS_NOCONN	broke
+3	9	Charlotte pushed her grocery cart across the parking lot. The eggs had been packed very safely in the bag. They broke inside their carton. 	IMPLAUS_NOCONN	broke
+3	10	Charlotte pushed her grocery cart over the potholes. The eggs bounced around in the bag. Even so, they broke inside their carton. 	PLAUS_CONN	broke
+3	11	Charlotte pushed her grocery cart across the parking lot. The eggs had been packed very safely in the bag. Even so, they broke inside their carton. 	IMPLAUS_CONN	broke
+4	12	The day had been somewhat overcast. All at once it started to rain. Sheila got out her umbrella from her bag. 	PLAUS_NOCONN	umbrella
+4	13	The day had been somewhat overcast. All at once the sun came out. Sheila got out her umbrella from her bag. 	IMPLAUS_NOCONN	umbrella
+4	14	The day had been somewhat overcast. All at once it started to rain. Even so, Sheila got out her umbrella from her bag. 	PLAUS_CONN	umbrella
+4	15	The day had been somewhat overcast. All at once the sun came out. Even so, Sheila got out her umbrella from her bag. 	IMPLAUS_CONN	umbrella
+5	16	Bill was house-sitting. He totally forgot to feed the cat. At the end of the week it was starving for food. 	PLAUS_NOCONN	starving
+5	17	Bill was house-sitting. He fed the cat regularly. At the end of the week it was starving for food. 	IMPLAUS_NOCONN	starving
+5	18	Bill was house-sitting. He totally forgot to feed the cat. Even so, at the end of the week it was starving for food. 	PLAUS_CONN	starving
+5	19	Bill was house-sitting. He fed the cat regularly. Even so, at the end of the week it was starving for food. 	IMPLAUS_CONN	starving
+6	20	The legally blind woman had undergone the surgery. The doctor was very optimistic about the results. Her eyesight improved the next day. 	PLAUS_NOCONN	improved
+6	21	The legally blind woman had undergone the surgery. The doctor was very disappointed about the results. Her eyesight improved the next day. 	IMPLAUS_NOCONN	improved
+6	22	The legally blind woman had undergone the surgery. The doctor was very optimistic about the results. Even so, her eyesight improved the next day. 	PLAUS_CONN	improved
+6	23	The legally blind woman had undergone the surgery. The doctor was very disappointed about the results. Even so, her eyesight improved the next day. 	IMPLAUS_CONN	improved
+7	24	The dog ran into a busy street. The car was speeding and hit him. The dog was injured badly. 	PLAUS_NOCONN	injured
+7	25	The dog ran into a busy street. Luckily, the car swerved and missed him. The dog was injured badly. 	IMPLAUS_NOCONN	injured
+7	26	The dog ran into a busy street. The car was speeding and hit him. Even so, the dog was injured badly. 	PLAUS_CONN	injured
+7	27	The dog ran into a busy street. Luckily, the car swerved and missed him. Even so, the dog was injured badly. 	IMPLAUS_CONN	injured
+8	28	Elizabeth had a history exam on Monday. She took the test and aced it. She went home and celebrated wildly. 	PLAUS_NOCONN	celebrated
+8	29	Elizabeth had a history exam on Monday. She took the test and failed it. She went home and celebrated wildly. 	IMPLAUS_NOCONN	celebrated
+8	30	Elizabeth had a history exam on Monday. She took the test and aced it. Even so, she went home and celebrated wildly. 	PLAUS_CONN	celebrated
+8	31	Elizabeth had a history exam on Monday. She took the test and failed it. Even so, she went home and celebrated wildly. 	IMPLAUS_CONN	celebrated
+9	32	The family was out of town for the weekend. The house-sitter had completely forgotten to water the plants. The plants wilted and turned brown. 	PLAUS_NOCONN	wilted
+9	33	The family was out of town for the weekend. The house-sitter faithfully remembered to water the plants. The plants wilted and turned brown. 	IMPLAUS_NOCONN	wilted
+9	34	The family was out of town for the weekend. The house-sitter had completely forgotten to water the plants. Even so, the plants wilted and turned brown. 	PLAUS_CONN	wilted
+9	35	The family was out of town for the weekend. The house-sitter faithfully remembered to water the plants. Even so, the plants wilted and turned brown. 	IMPLAUS_CONN	wilted
+10	36	The Broadway star had a solo in the musical. She sang the piece beautifully. The audience applauded very loudly. 	PLAUS_NOCONN	applauded
+10	37	The Broadway star had a solo in the musical. She sang the piece very badly and off-key. The audience applauded very loudly. 	IMPLAUS_NOCONN	applauded
+10	38	The Broadway star had a solo in the musical. She sang the piece beautifully. Even so, the audience applauded very loudly. 	PLAUS_CONN	applauded
+10	39	The Broadway star had a solo in the musical. She sang the piece very badly and off-key. Even so, the audience applauded very loudly. 	IMPLAUS_CONN	applauded
+11	40	Mackenzie was the new kid in school. The other children began to tease her. She was crying by day's end. 	PLAUS_NOCONN	crying
+11	41	Mackenzie was the new kid in school. The other children made her feel welcome. She was crying by day's end. 	IMPLAUS_NOCONN	crying
+11	42	Mackenzie was the new kid in school. The other children began to tease her. Even so, she was crying by day's end. 	PLAUS_CONN	crying
+11	43	Mackenzie was the new kid in school. The other children made her feel welcome. Even so, she was crying by day's end. 	IMPLAUS_CONN	crying
+12	44	Catherine had a test on Tuesday. She received a failing grade. She was dismayed with the result. 	PLAUS_NOCONN	dismayed
+12	45	Catherine had a test on Tuesday. She received the highest grade. She was dismayed with the result. 	IMPLAUS_NOCONN	dismayed
+12	46	Catherine had a test on Tuesday. She received a failing grade. Even so, she was dismayed with the result. 	PLAUS_CONN	dismayed
+12	47	Catherine had a test on Tuesday. She received the highest grade. Even so, she was dismayed with the result. 	IMPLAUS_CONN	dismayed
+13	48	The city officials were brought to court. The judge ruled against them. They were imprisoned immediately. 	PLAUS_NOCONN	imprisoned
+13	49	The city officials were brought to court. The judge ruled in their favor. They were imprisoned immediately. 	IMPLAUS_NOCONN	imprisoned
+13	50	The city officials were brought to court. The judge ruled against them. Even so, they were imprisoned immediately. 	PLAUS_CONN	imprisoned
+13	51	The city officials were brought to court. The judge ruled in their favor. Even so, they were imprisoned immediately. 	IMPLAUS_CONN	imprisoned
+14	52	Joe plunked another coin into the slot machine. He spent all of his money trying to win. He was poor by the end. 	PLAUS_NOCONN	poor
+14	53	Joe plunked another coin into the slot machine. He kept trying and won the jackpot. He was poor by the end. 	IMPLAUS_NOCONN	poor
+14	54	Joe plunked another coin into the slot machine. He spent all of his money trying to win. Even so, he was poor by the end. 	PLAUS_CONN	poor
+14	55	Joe plunked another coin into the slot machine. He kept trying and won the jackpot. Even so, he was poor by the end. 	IMPLAUS_CONN	poor
+15	56	Sylvia and Frank were gambling at the casino. They won every game of blackjack. They were happy that night. 	PLAUS_NOCONN	happy
+15	57	Sylvia and Frank were gambling at the casino. No one won the jackpot that night. They were happy that night. 	IMPLAUS_NOCONN	happy
+15	58	Sylvia and Frank were gambling at the casino. They won every game of blackjack. Even so, they were happy that night. 	PLAUS_CONN	happy
+15	59	Sylvia and Frank were gambling at the casino. No one won the jackpot that night. Even so, they were happy that night. 	IMPLAUS_CONN	happy
+16	60	Alice went camping over vacation. She was bitten by mosquitoes. She began to itch all over. 	PLAUS_NOCONN	itch
+16	61	Alice went camping over vacation. She used a great mosquito repellent. She began to itch all over. 	IMPLAUS_NOCONN	itch
+16	62	Alice went camping over vacation. She was bitten by mosquitoes. Even so, she began to itch all over. 	PLAUS_CONN	itch
+16	63	Alice went camping over vacation. She used a great mosquito repellent. Even so, she began to itch all over. 	IMPLAUS_CONN	itch
+17	64	A recruiter came to watch Paco play baseball. He pitched very well. He was signed by the team. 	PLAUS_NOCONN	signed
+17	65	A recruiter came to watch Paco play baseball. He pitched very badly. He was signed by the team. 	IMPLAUS_NOCONN	signed
+17	66	A recruiter came to watch Paco play baseball. He pitched very well. Even so, he was signed by the team. 	PLAUS_CONN	signed
+17	67	A recruiter came to watch Paco play baseball. He pitched very badly. Even so, he was signed by the team. 	IMPLAUS_CONN	signed
+18	68	The hermit lived in a cave. He hadn't bathed for months. His hair looked dirty and untidy. 	PLAUS_NOCONN	dirty
+18	69	The hermit lived in a cave. He bathed every day in the mountain stream. His hair looked dirty and untidy. 	IMPLAUS_NOCONN	dirty
+18	70	The hermit lived in a cave. He hadn't bathed for months. Even so, his hair looked dirty and untidy. 	PLAUS_CONN	dirty
+18	71	The hermit lived in a cave. He bathed every day in the mountain stream. Even so, his hair looked dirty and untidy. 	IMPLAUS_CONN	dirty
+19	72	Otto needed a 2-5 average to graduate. He learned his average was high enough. He will graduate next week with his class. 	PLAUS_NOCONN	week
+19	73	Otto needed a 2-5 average to graduate. He learned his average was too low. He will graduate next week with his class. 	IMPLAUS_NOCONN	week
+19	74	Otto needed a 2-5 average to graduate. He learned his average was high enough. Even so, he will graduate next week with his class. 	PLAUS_CONN	week
+19	75	Otto needed a 2-5 average to graduate. He learned his average was too low. Even so, he will graduate next week with his class. 	IMPLAUS_CONN	week
+20	76	Jared had a problem with food. He had basically stopped eating. He got really thin after a while. 	PLAUS_NOCONN	thin
+20	77	Jared had a problem with food. He couldn't stop eating. He got really thin after a while. 	IMPLAUS_NOCONN	thin
+20	78	Jared had a problem with food. He had basically stopped eating. Even so, he got really thin after a while. 	PLAUS_CONN	thin
+20	79	Jared had a problem with food. He couldn't stop eating. Even so, he got really thin after a while. 	IMPLAUS_CONN	thin
+21	80	The burglar was clumsy. He had set off the alarm. He got caught by the guard. 	PLAUS_NOCONN	caught
+21	81	The burglar was careful. He did not set off the alarm. He got caught by the guard. 	IMPLAUS_NOCONN	caught
+21	82	The burglar was clumsy. He had set off the alarm. Even so, he got caught by the guard. 	PLAUS_CONN	caught
+21	83	The burglar was careful. He did not set off the alarm. Even so, he got caught by the guard. 	IMPLAUS_CONN	caught
+22	84	Alan was taking his daily jog. The road was very bumpy. He tripped and fell. 	PLAUS_NOCONN	tripped
+22	85	Alan was taking his daily jog. The road was newly paved. He tripped and fell. 	IMPLAUS_NOCONN	tripped
+22	86	Alan was taking his daily jog. The road was very bumpy. Even so, he tripped and fell. 	PLAUS_CONN	tripped
+22	87	Alan was taking his daily jog. The road was newly paved. Even so, he tripped and fell. 	IMPLAUS_CONN	tripped
+23	88	The telephone company ran into financial problems that year. It lost many customers. Its profits decreased shortly thereafter. 	PLAUS_NOCONN	decreased
+23	89	The telephone company was very successful that year. It gained many customers. Its profits decreased shortly thereafter. 	IMPLAUS_NOCONN	decreased
+23	90	The telephone company ran into financial problems that year. It lost many customers. Even so, its profits decreased shortly thereafter. 	PLAUS_CONN	decreased
+23	91	The telephone company was very successful that year. It gained many customers. Even so, its profits decreased shortly thereafter. 	IMPLAUS_CONN	decreased
+24	92	Joe got bad grades and frequently got in trouble at school. He seemed depressed and had no friends. His parents were worried about him. 	PLAUS_NOCONN	worried
+24	93	Joe got good grades and never got in trouble at school. He was always cheerful and had lots of friends. His parents were worried about him. 	IMPLAUS_NOCONN	worried
+24	94	Joe got bad grades and frequently got in trouble at school. He seemed depressed and had no friends. Even so, his parents were worried about him. 	PLAUS_CONN	worried
+24	95	Joe got good grades and never got in trouble at school. He was always cheerful and had lots of friends. Even so, his parents were worried about him. 	IMPLAUS_CONN	worried
+25	96	The two countries had been at war for years. The leaders agreed to sign the cease-fire proposal. The conflict ended shortly afterwards. 	PLAUS_NOCONN	ended
+25	97	The two countries had been at war for years. The leaders rejected the latest cease-fire proposal. The conflict ended shortly afterwards. 	IMPLAUS_NOCONN	ended
+25	98	The two countries had been at war for years. The leaders agreed to sign the cease-fire proposal. Even so, the conflict ended shortly afterwards. 	PLAUS_CONN	ended
+25	99	The two countries had been at war for years. The leaders rejected the latest cease-fire proposal. Even so, the conflict ended shortly afterwards. 	IMPLAUS_CONN	ended
+26	100	The restaurant had received terrible reviews. It was always empty. It closed down in May. 	PLAUS_NOCONN	closed
+26	101	The restaurant had received excellent reviews. It was always crowded. It closed down in May. 	IMPLAUS_NOCONN	closed
+26	102	The restaurant had received terrible reviews. It was always empty. Even so, it closed down in May. 	PLAUS_CONN	closed
+26	103	The restaurant had received excellent reviews. It was always crowded. Even so, it closed down in May. 	IMPLAUS_CONN	closed
+27	104	The milk was over a week old. Felicia thought it tasted sour. She dumped it out. 	PLAUS_NOCONN	dumped
+27	105	The milk was still fresh. Felicia thought it tasted fine. She dumped it out. 	IMPLAUS_NOCONN	dumped
+27	106	The milk was over a week old. Felicia thought it tasted sour. Even so, she dumped it out. 	PLAUS_CONN	dumped
+27	107	The milk was still fresh. Felicia thought it tasted fine. Even so, she dumped it out. 	IMPLAUS_CONN	dumped
+28	108	Margot's boyfriend brought her some vanilla ice cream. She hated that flavor. She refused the gift. 	PLAUS_NOCONN	refused
+28	109	Margot's boyfriend brought her some chocolate ice cream. It was her favorite flavor. She refused the gift. 	IMPLAUS_NOCONN	refused
+28	110	Margot's boyfriend brought her some vanilla ice cream. She hated that flavor. Even so, she refused the gift. 	PLAUS_CONN	refused
+28	111	Margot's boyfriend brought her some chocolate ice cream. It was her favorite flavor. Even so, she refused the gift. 	IMPLAUS_CONN	refused
+29	112	The famous violinist was confident about her performance. She played the piece exceptionally. Everyone cheered for her. 	PLAUS_NOCONN	cheered
+29	113	The famous violinist was worried about her performance. She made many mistakes as she played. Everyone cheered for her. 	IMPLAUS_NOCONN	cheered
+29	114	The famous violinist was confident about her performance. She played the piece exceptionally. Even so, everyone cheered for her. 	PLAUS_CONN	cheered
+29	115	The famous violinist was worried about her performance. She made many mistakes as she played. Even so, everyone cheered for her. 	IMPLAUS_CONN	cheered
+30	116	The seamstress was pinning Toby's suit. She was quick and careless with the pins. Toby was poked a few times. 	PLAUS_NOCONN	poked
+30	117	The seamstress was pinning Toby's suit. She was extremely careful with the pins. Toby was poked a few times. 	IMPLAUS_NOCONN	poked
+30	118	The seamstress was pinning Toby's suit. She was quick and careless with the pins. Even so, Toby was poked a few times. 	PLAUS_CONN	poked
+30	119	The seamstress was pinning Toby's suit. She was extremely careful with the pins. Even so, Toby was poked a few times. 	IMPLAUS_CONN	poked
+31	120	Jody had a garden in the backyard. She never spent much time working there. It was full of weeds and garbage. 	PLAUS_NOCONN	weeds
+31	121	Jody had a garden in the backyard. She spent a lot of time taking care of it. It was full of weeds and garbage. 	IMPLAUS_NOCONN	weeds
+31	122	Jody had a garden in the backyard. She never spent much time working there. Even so, it was full of weeds and garbage. 	PLAUS_CONN	weeds
+31	123	Jody had a garden in the backyard. She spent a lot of time taking care of it. Even so, it was full of weeds and garbage. 	IMPLAUS_CONN	weeds
+32	124	The gymnast specialized in the balance beam. She stumbled during the first trick. She was disappointed with herself. 	PLAUS_NOCONN	disappointed
+32	125	The gymnast specialized in the balance beam. She performed her first trick perfectly. She was disappointed with herself. 	IMPLAUS_NOCONN	disappointed
+32	126	The gymnast specialized in the balance beam. She stumbled during the first trick. Even so, she was disappointed with herself. 	PLAUS_CONN	disappointed
+32	127	The gymnast specialized in the balance beam. She performed her first trick perfectly. Even so, she was disappointed with herself. 	IMPLAUS_CONN	disappointed
+33	128	The company hired a new employee. He was lazy and slow. His performance reviews were negative that quarter. 	PLAUS_NOCONN	negative
+33	129	The company hired a new employee. He was dedicated and effective. His performance reviews were negative that quarter. 	IMPLAUS_NOCONN	negative
+33	130	The company hired a new employee. He was lazy and slow. Even so, his performance reviews were negative that quarter. 	PLAUS_CONN	negative
+33	131	The company hired a new employee. He was dedicated and effective. Even so, his performance reviews were negative that quarter. 	IMPLAUS_CONN	negative
+34	132	Ben's parents found out he'd started smoking. They were furious. He was grounded for a week. 	PLAUS_NOCONN	grounded
+34	133	Ben's parents found out he'd quit smoking. They were thrilled. He was grounded for a week. 	IMPLAUS_NOCONN	grounded
+34	134	Ben's parents found out he'd started smoking. They were furious. Even so, he was grounded for a week. 	PLAUS_CONN	grounded
+34	135	Ben's parents found out he'd quit smoking. They were thrilled. Even so, he was grounded for a week. 	IMPLAUS_CONN	grounded
+35	136	The child was visiting the museum with his parents. He reached out to touch some of the artwork. The museum guard reprimanded him. 	PLAUS_NOCONN	reprimanded
+35	137	The child was visiting the museum with his parents. He kept a respectful distance from the artwork. The museum guard reprimanded him. 	IMPLAUS_NOCONN	reprimanded
+35	138	The child was visiting the museum with his parents. He reached out to touch some of the artwork. Even so, the museum guard reprimanded him. 	PLAUS_CONN	reprimanded
+35	139	The child was visiting the museum with his parents. He kept a respectful distance from the artwork. Even so, the museum guard reprimanded him. 	IMPLAUS_CONN	reprimanded
+36	140	The software engineer's idea had been implemented in the new product. It turned out to be very popular. He was promoted in the company. 	PLAUS_NOCONN	promoted
+36	141	The software engineer's idea had been implemented in the new product. It turned out to be unpopular. He was promoted in the company. 	IMPLAUS_NOCONN	promoted
+36	142	The software engineer's idea had been implemented in the new product. It turned out to be very popular. Even so, he was promoted in the company. 	PLAUS_CONN	promoted
+36	143	The software engineer's idea had been implemented in the new product. It turned out to be unpopular. Even so, he was promoted in the company. 	IMPLAUS_CONN	promoted
+37	144	It was the day of the big football game. Tim drank a ton of beer that night. He woke up feeling hungover the next morning. 	PLAUS_NOCONN	hungover
+37	145	It was the day before the big test. Tim only drank seltzer water that night. He woke up feeling hungover the next morning. 	IMPLAUS_NOCONN	hungover
+37	146	It was the day of the big football game. Tim drank a ton of beer that night. Even so, he woke up feeling hungover the next morning. 	PLAUS_CONN	hungover
+37	147	It was the day before the big test. Tim only drank seltzer water that night. Even so, he woke up feeling hungover the next morning. 	IMPLAUS_CONN	hungover
+38	148	The governor had been murdered. The crime scene was covered with his wife�s fingerprints. She was arrested immediately. 	PLAUS_NOCONN	arrested
+38	149	The governor had been murdered. The crime scene was covered with his son�s fingerprints. His wife was arrested immediately. 	IMPLAUS_NOCONN	arrested
+38	150	The governor had been murdered. The crime scene was covered with his wife�s fingerprints. Even so, she was arrested immediately. 	PLAUS_CONN	arrested
+38	151	The governor had been murdered. The crime scene was covered with his son�s fingerprints. Even so, his wife was arrested immediately. 	IMPLAUS_CONN	arrested
+39	152	The cab drove the passenger to the airport. The passenger jumped out without paying. The cab driver was furious with him. 	PLAUS_NOCONN	furious
+39	153	The cab drove the passenger to the airport. The passenger left a big tip. The cab driver was furious with him. 	IMPLAUS_NOCONN	furious
+39	154	The cab drove the passenger to the airport. The passenger jumped out without paying. Even so, the cab driver was furious with him. 	PLAUS_CONN	furious
+39	155	The cab drove the passenger to the airport. The passenger left a big tip. Even so, the cab driver was furious with him. 	IMPLAUS_CONN	furious
+40	156	There was a boxing match at the arena. One man�s punch landed hard on his opponent's cheek. The opponent fell to the ground. 	PLAUS_NOCONN	fell
+40	157	There was a boxing match at the arena. One man�s punch had missed its mark. The opponent fell to the ground. 	IMPLAUS_NOCONN	fell
+40	158	There was a boxing match at the arena. One man�s punch landed hard on his opponent's cheek. Even so, the opponent fell to the ground. 	PLAUS_CONN	fell
+40	159	There was a boxing match at the arena. One man�s punch had missed its mark. Even so, the opponent fell to the ground. 	IMPLAUS_CONN	fell
+41	160	Jeff was home by himself for a whole week. He didn't receive any phone calls. He felt lonely that week. 	PLAUS_NOCONN	lonely
+41	161	Jeff visited his friends for a whole week. They went out to parties every night. He felt lonely that week. 	IMPLAUS_NOCONN	lonely
+41	162	Jeff was home by himself for a whole week. He didn't receive any phone calls. Even so, he felt lonely that week. 	PLAUS_CONN	lonely
+41	163	Jeff visited his friends for a whole week. They went out to parties every night. Even so, he felt lonely that week. 	IMPLAUS_CONN	lonely
+42	164	Linda couldn't find her credit card. She was worried it was stolen. She cancelled it immediately. 	PLAUS_NOCONN	cancelled
+42	165	Linda remembered where she left her credit card. She knew for sure it was somewhere in her bedroom. She cancelled it immediately. 	IMPLAUS_NOCONN	cancelled
+42	166	Linda couldn't find her credit card. She was worried it was stolen. Even so, she cancelled it immediately. 	PLAUS_CONN	cancelled
+42	167	Linda remembered where she left her credit card. She knew for sure it was somewhere in her bedroom. Even so, she cancelled it immediately. 	IMPLAUS_CONN	cancelled
+43	168	Susie was supposed to leave for a vacation in the Bahamas later that week. A large hurricane hit the islands. The trip was cancelled immediately. 	PLAUS_NOCONN	cancelled
+43	169	Susie was supposed to leave for a vacation in the Bahamas later that week. The weather forecast looked perfect. The trip was cancelled immediately. 	IMPLAUS_NOCONN	cancelled
+43	170	Susie was supposed to leave for a vacation in the Bahamas later that week. A large hurricane hit the islands. Even so, the trip was cancelled immediately. 	PLAUS_CONN	cancelled
+43	171	Susie was supposed to leave for a vacation in the Bahamas later that week. The weather forecast looked perfect. Even so, the trip was cancelled immediately. 	IMPLAUS_CONN	cancelled
+44	172	During the storm, the electricity in the city was cut off. The lights in the restaurant went out. The waiters brought candles to the tables. 	PLAUS_NOCONN	candles
+44	173	After the storm, the electricity in the city was restored. The lights in the restaurant came back on. The waiters brought candles to the tables. 	IMPLAUS_NOCONN	candles
+44	174	During the storm, the electricity in the city was cut off. The lights in the restaurant went out. Even so, the waiters brought candles to the tables. 	PLAUS_CONN	candles
+44	175	After the storm, the electricity in the city was restored. The lights in the restaurant came back on. Even so, the waiters brought candles to the tables. 	IMPLAUS_CONN	candles
+45	176	Chuck threw his last dart at the board. The throw was right on target. He began to celebrate his performance. 	PLAUS_NOCONN	celebrate
+45	177	Chuck threw his last dart at the board. The throw was way off target. He began to celebrate his performance. 	IMPLAUS_NOCONN	celebrate
+45	178	Chuck threw his last dart at the board. The throw was right on target. Even so, he began to celebrate his performance. 	PLAUS_CONN	celebrate
+45	179	Chuck threw his last dart at the board. The throw was way off target. Even so, he began to celebrate his performance. 	IMPLAUS_CONN	celebrate
+46	180	Allen desperately wanted to go to Harvard. On Tuesday he received an acceptance letter in the mail. He was ecstatic all day. 	PLAUS_NOCONN	ecstatic
+46	181	Allen desperately wanted to go to Harvard. On Tuesday he received a rejection letter in the mail. He was ecstatic all day. 	IMPLAUS_NOCONN	ecstatic
+46	182	Allen desperately wanted to go to Harvard. On Tuesday he received an acceptance letter in the mail. Even so, he was ecstatic all day. 	PLAUS_CONN	ecstatic
+46	183	Allen desperately wanted to go to Harvard. On Tuesday he received a rejection letter in the mail. Even so, he was ecstatic all day. 	IMPLAUS_CONN	ecstatic
+47	184	The woman was out of shape and chubby. She had to climb twenty flights of stairs. She was feeling tired afterwards. 	PLAUS_NOCONN	tired
+47	185	The woman stayed fit by exercising regularly. She ran up a flight of stairs. She was feeling tired afterwards. 	IMPLAUS_NOCONN	tired
+47	186	The woman was out of shape and chubby. She had to climb twenty flights of stairs. Even so, she was feeling tired afterwards. 	PLAUS_CONN	tired
+47	187	The woman stayed fit by exercising regularly. She ran up a flight of stairs. Even so, she was feeling tired afterwards. 	IMPLAUS_CONN	tired
+48	188	Sarah had a history exam today. She was completely unprepared for the questions. She felt panicked halfway through. 	PLAUS_NOCONN	panicked
+48	189	Sarah had a history exam today. She knew the answer to every question. She felt panicked halfway through. 	IMPLAUS_NOCONN	panicked
+48	190	Sarah had a history exam today. She was completely unprepared for the questions. Even so, she felt panicked halfway through. 	PLAUS_CONN	panicked
+48	191	Sarah had a history exam today. She knew the answer to every question. Even so, she felt panicked halfway through. 	IMPLAUS_CONN	panicked
+49	192	Tammy was just learning to drive. She had recently gotten into an accident. She was very nervous on the road. 	PLAUS_NOCONN	nervous
+49	193	Tammy had been driving for 20 years. She had never gotten into an accident. She was very nervous on the road. 	IMPLAUS_NOCONN	nervous
+49	194	Tammy was just learning to drive. She had recently gotten into an accident. Even so, she was very nervous on the road. 	PLAUS_CONN	nervous
+49	195	Tammy had been driving for 20 years. She had never gotten into an accident. Even so, she was very nervous on the road. 	IMPLAUS_CONN	nervous
+50	196	The union was engaged in contract talks. Negotiations failed and the employees were furious. They picketed the following day. 	PLAUS_NOCONN	picketed
+50	197	The union was engaged in contract talks. Negotiations succeeded and the employees were contented. They picketed the following day. 	IMPLAUS_NOCONN	picketed
+50	198	The union was engaged in contract talks. Negotiations failed and the employees were furious. Even so, they picketed the following day. 	PLAUS_CONN	picketed
+50	199	The union was engaged in contract talks. Negotiations succeeded and the employees were contented. Even so, they picketed the following day. 	IMPLAUS_CONN	picketed
+51	200	The boy took the ski lift to the top. He skied all the way down. He was proud of himself. 	PLAUS_NOCONN	proud
+51	201	The boy took the ski lift to the top. He was too afraid to go down. He was proud of himself. 	IMPLAUS_NOCONN	proud
+51	202	The boy took the ski lift to the top. He skied all the way down. Even so, he was proud of himself. 	PLAUS_CONN	proud
+51	203	The boy took the ski lift to the top. He was too afraid to go down. Even so, he was proud of himself. 	IMPLAUS_CONN	proud
+52	204	Maurice worked in a hospital. He refused to wear latex gloves. He was infected by a patient. 	PLAUS_NOCONN	infected
+52	205	Maurice worked at the reception desk of a hospital. He always wore latex gloves. He was infected by a patient. 	IMPLAUS_NOCONN	infected
+52	206	Maurice worked in a hospital. He refused to wear latex gloves. Even so, he was infected by a patient. 	PLAUS_CONN	infected
+52	207	Maurice worked at the reception desk of a hospital. He always wore latex gloves. Even so, he was infected by a patient. 	IMPLAUS_CONN	infected
+53	208	Steve applied to a law school. He had poor grades and mediocre recommendations. The school decided to reject him. 	PLAUS_NOCONN	reject
+53	209	Steve applied to a law school. He had good grades and excellent recommendations. The school decided to reject him. 	IMPLAUS_NOCONN	reject
+53	210	Steve applied to a law school. He had poor grades and mediocre recommendations. Even so, the school decided to reject him. 	PLAUS_CONN	reject
+53	211	Steve applied to a law school. He had good grades and excellent recommendations. Even so, the school decided to reject him. 	IMPLAUS_CONN	reject
+54	212	Katie was making lemonade one afternoon. She added less sugar than the recipe required. It tasted tart to everybody. 	PLAUS_NOCONN	tart
+54	213	Katie was making lemonade one afternoon. She added more sugar than the recipe required. It tasted tart to everybody. 	IMPLAUS_NOCONN	tart
+54	214	Katie was making lemonade one afternoon. She added less sugar than the recipe required. Even so, it tasted tart to everybody. 	PLAUS_CONN	tart
+54	215	Katie was making lemonade one afternoon. She added more sugar than the recipe required. Even so, it tasted tart to everybody. 	IMPLAUS_CONN	tart
+55	216	Tammy's friends took her to the movies. It was a horror film. She was frightened by the movie. 	PLAUS_NOCONN	frightened
+55	217	Tammy's friends took her to the movies. It was a comedy. She was frightened by the movie. 	IMPLAUS_NOCONN	frightened
+55	218	Tammy's friends took her to the movies. It was a horror film. Even so, she was frightened by the movie. 	PLAUS_CONN	frightened
+55	219	Tammy's friends took her to the movies. It was a comedy. Even so, she was frightened by the movie. 	IMPLAUS_CONN	frightened
+56	220	Donna was an irresponsible tenant. She had failed to paid the rent. The landlord evicted her from the building. 	PLAUS_NOCONN	evicted
+56	221	Donna was a good tenant. She had always paid the rent. The landlord evicted her from the building. 	IMPLAUS_NOCONN	evicted
+56	222	Donna was an irresponsible tenant. She had failed to paid the rent. Even so, the landlord evicted her from the building. 	PLAUS_CONN	evicted
+56	223	Donna was a good tenant. She had always paid the rent. Even so, the landlord evicted her from the building. 	IMPLAUS_CONN	evicted
+57	224	The comedian was nervous that night. He performed terribly. The audience booed him with no mercy. 	PLAUS_NOCONN	booed
+57	225	The comedian was confident that night. He had perfected his act. The audience booed him with no mercy. 	IMPLAUS_NOCONN	booed
+57	226	The comedian was nervous that night. He performed terribly. Even so, the audience booed him with no mercy. 	PLAUS_CONN	booed
+57	227	The comedian was confident that night. He had perfected his act. Even so, the audience booed him with no mercy. 	IMPLAUS_CONN	booed
+58	228	A passenger went through airport security. The guards found a weapon on him. The passenger was detained as a terrorist. 	PLAUS_NOCONN	detained
+58	229	A passenger went through airport security. The guards found nothing suspicious on him. The passenger was detained as a terrorist. 	IMPLAUS_NOCONN	detained
+58	230	A passenger went through airport security. The guards found a weapon on him. Even so, the passenger was detained as a terrorist. 	PLAUS_CONN	detained
+58	231	A passenger went through airport security. The guards found nothing suspicious on him. Even so, the passenger was detained as a terrorist. 	IMPLAUS_CONN	detained
+59	232	Julia had come down with a cold. She took a cough drop. Her sore throat felt better soon. 	PLAUS_NOCONN	better
+59	233	Julia had come down with a cold. She refused to try a cough drop. Her sore throat felt better soon. 	IMPLAUS_NOCONN	better
+59	234	Julia had come down with a cold. She took a cough drop. Even so, her sore throat felt better soon. 	PLAUS_CONN	better
+59	235	Julia had come down with a cold. She refused to try a cough drop. Even so, her sore throat felt better soon. 	IMPLAUS_CONN	better
+60	236	The preschoolers had used finger paint in art class. They got paint on their clothes. Their clothes were stained afterwards. 	PLAUS_NOCONN	stained
+60	237	The preschoolers had used clay in art class. They wore aprons over their clothes. Their clothes were stained afterwards. 	IMPLAUS_NOCONN	stained
+60	238	The preschoolers had used finger paint in art class. They got paint on their clothes. Even so, their clothes were stained afterwards. 	PLAUS_CONN	stained
+60	239	The preschoolers had used clay in art class. They wore aprons over their clothes. Even so, their clothes were stained afterwards. 	IMPLAUS_CONN	stained
+61	240	The employee had worked for the company for many years. He was caught doing drugs. He was fired by the company. 	PLAUS_NOCONN	fired
+61	241	The employee had worked for the company for many years. He had always done a good job. He was fired by the company. 	IMPLAUS_NOCONN	fired
+61	242	The employee had worked for the company for many years. He was caught doing drugs. Even so, he was fired by the company. 	PLAUS_CONN	fired
+61	243	The employee had worked for the company for many years. He had always done a good job. Even so, he was fired by the company. 	IMPLAUS_CONN	fired
+62	244	Howard was an aspiring pop star. Everyone loved his new song. It was a hit on the radio. 	PLAUS_NOCONN	hit
+62	245	Howard was an aspiring pop star. No one liked his new song. It was a hit on the radio. 	IMPLAUS_NOCONN	hit
+62	246	Howard was an aspiring pop star. Everyone loved his new song. Even so, it was a hit on the radio. 	PLAUS_CONN	hit
+62	247	Howard was an aspiring pop star. No one liked his new song. Even so, it was a hit on the radio. 	IMPLAUS_CONN	hit
+63	248	The man was in his fifties. His skin was wrinkled and grey. He looked old in the mirror. 	PLAUS_NOCONN	old
+63	249	The man was in his twenties. His skin was smooth and tanned. He looked old in the mirror. 	IMPLAUS_NOCONN	old
+63	250	The man was in his fifties. His skin was wrinkled and grey. Even so, he looked old in the mirror. 	PLAUS_CONN	old
+63	251	The man was in his twenties. His skin was smooth and tanned. Even so, he looked old in the mirror. 	IMPLAUS_CONN	old
+64	252	Marge wanted to dye her hair. The hairdresser did a terrible job. Marge was displeased with her. 	PLAUS_NOCONN	displeased
+64	253	Marge wanted to dye her hair. The hairdresser did a nice job. Marge was displeased with her. 	IMPLAUS_NOCONN	displeased
+64	254	Marge wanted to dye her hair. The hairdresser did a terrible job. Even so, Marge was displeased with her. 	PLAUS_CONN	displeased
+64	255	Marge wanted to dye her hair. The hairdresser did a nice job. Even so, Marge was displeased with her. 	IMPLAUS_CONN	displeased
+65	256	Alice was walking home from work at night. A stranger was following her. She felt nervous the whole way. 	PLAUS_NOCONN	nervous
+65	257	Alice was walking home from work at night. Her boyfriend was with her. She felt nervous the whole way. 	IMPLAUS_NOCONN	nervous
+65	258	Alice was walking home from work at night. A stranger was following her. Even so, she felt nervous the whole way. 	PLAUS_CONN	nervous
+65	259	Alice was walking home from work at night. Her boyfriend was with her. Even so, she felt nervous the whole way. 	IMPLAUS_CONN	nervous
+66	260	Andy wanted to get healthy. He started lifting weights at the gym. He got muscular that winter. 	PLAUS_NOCONN	muscular
+66	261	Andy had started feeling lazy. He stopped lifting weights at the gym. He got muscular that winter. 	IMPLAUS_NOCONN	muscular
+66	262	Andy wanted to get healthy. He started lifting weights at the gym. Even so, he got muscular that winter. 	PLAUS_CONN	muscular
+66	263	Andy had started feeling lazy. He stopped lifting weights at the gym. Even so, he got muscular that winter. 	IMPLAUS_CONN	muscular
+67	264	Harvey had always used a safety razor. He was sloppy with it this morning. His face was bleeding afterwards. 	PLAUS_NOCONN	bleeding
+67	265	Harvey had always used a safety razor. He was very careful with it this morning. His face was bleeding afterwards. 	IMPLAUS_NOCONN	bleeding
+67	266	Harvey had always used a safety razor. He was sloppy with it this morning. Even so, his face was bleeding afterwards. 	PLAUS_CONN	bleeding
+67	267	Harvey had always used a safety razor. He was very careful with it this morning. Even so, his face was bleeding afterwards. 	IMPLAUS_CONN	bleeding
+68	268	Judy hurried to catch the bus. She was out of shape. She was winded getting on. 	PLAUS_NOCONN	winded
+68	269	Judy hurried to catch the bus. She was in excellent shape. She was winded getting on. 	IMPLAUS_NOCONN	winded
+68	270	Judy hurried to catch the bus. She was out of shape. Even so, she was winded getting on. 	PLAUS_CONN	winded
+68	271	Judy hurried to catch the bus. She was in excellent shape. Even so, she was winded getting on. 	IMPLAUS_CONN	winded
+69	272	The home team needed just one more point to win. The player made the free-throw in the last second. They won the game. 	PLAUS_NOCONN	won
+69	273	The home team needed just one more point to win. The player missed the free-throw in the last second. They won the game. 	IMPLAUS_NOCONN	won
+69	274	The home team needed just one more point to win. The player made the free-throw in the last second. Even so, they won the game. 	PLAUS_CONN	won
+69	275	The home team needed just one more point to win. The player missed the free-throw in the last second. Even so, they won the game. 	IMPLAUS_CONN	won
+70	276	The death row inmate appealed the verdict. There was new DNA evidence proving his innocence. He was freed after the proceedings. 	PLAUS_NOCONN	freed
+70	277	The death row inmate appealed the verdict. There was no new evidence in the case. He was freed after the proceedings. 	IMPLAUS_NOCONN	freed
+70	278	The death row inmate appealed the verdict. There was new DNA evidence proving his innocence. Even so, he was freed after the proceedings. 	PLAUS_CONN	freed
+70	279	The death row inmate appealed the verdict. There was no new evidence in the case. Even so, he was freed after the proceedings. 	IMPLAUS_CONN	freed
+71	280	The toddler's mother gave him some yogurt for a snack. He thought it tasted disgusting. He spat it out. 	PLAUS_NOCONN	spat
+71	281	The toddler's mother gave him some yogurt for a snack. He thought it tasted delicious. He spat it out. 	IMPLAUS_NOCONN	spat
+71	282	The toddler's mother gave him some yogurt for a snack. He thought it tasted disgusting. Even so, he spat it out. 	PLAUS_CONN	spat
+71	283	The toddler's mother gave him some yogurt for a snack. He thought it tasted delicious. Even so, he spat it out. 	IMPLAUS_CONN	spat
+72	284	Tomas slept soundly last night. He drank some coffee this morning. He was energetic at work. 	PLAUS_NOCONN	energetic
+72	285	Tomas only slept for two hours last night. He had no time for coffee this morning. He was energetic at work. 	IMPLAUS_NOCONN	energetic
+72	286	Tomas slept soundly last night. He drank some coffee this morning. Even so, he was energetic at work. 	PLAUS_CONN	energetic
+72	287	Tomas only slept for two hours last night. He had no time for coffee this morning. Even so, he was energetic at work. 	IMPLAUS_CONN	energetic
+73	288	Mary forgot to pack a winter coat for the trip to Chicago. Temperatures there dropped to around freezing. She was cold the whole time. 	PLAUS_NOCONN	cold
+73	289	Mary packed her warmest winter coat for the trip to Chicago. Temperatures there were actually relatively mild. She was cold the whole time. 	IMPLAUS_NOCONN	cold
+73	290	Mary forgot to pack a winter coat for the trip to Chicago. Temperatures there dropped to around freezing. Even so, she was cold the whole time. 	PLAUS_CONN	cold
+73	291	Mary packed her warmest winter coat for the trip to Chicago. Temperatures there were actually relatively mild. Even so, she was cold the whole time. 	IMPLAUS_CONN	cold
+74	292	Many people at Joanna's office had come down with colds. She was a bit congested after work on Tuesday. The next day she was feeling terrible and stayed home. 	PLAUS_NOCONN	terrible
+74	293	Everyone at Joanna's office had finally gotten over their colds. Joanna was no longer congested after work on Tuesday. The next day she was feeling terrible and stayed home. 	IMPLAUS_NOCONN	terrible
+74	294	Many people at Joanna's office had come down with colds. She was a bit congested after work on Tuesday. Even so, the next day she was feeling terrible and stayed home. 	PLAUS_CONN	terrible
+74	295	Everyone at Joanna's office had finally gotten over their colds. Joanna was no longer congested after work on Tuesday. Even so, the next day she was feeling terrible and stayed home. 	IMPLAUS_CONN	terrible
+75	296	A street performer was playing the violin. It was perfectly in tune and sounded beautiful. The people passing by tipped him nicely. 	PLAUS_NOCONN	tipped
+75	297	A street performer was playing the violin. It was out of tune and sounded terrible. The people passing by tipped him nicely. 	IMPLAUS_NOCONN	tipped
+75	298	A street performer was playing the violin. It was perfectly in tune and sounded beautiful. Even so, the people passing by tipped him nicely. 	PLAUS_CONN	tipped
+75	299	A street performer was playing the violin. It was out of tune and sounded terrible. Even so, the people passing by tipped him nicely. 	IMPLAUS_CONN	tipped
+76	300	Too much coffee made Karen shaky. She drank way too much this morning. She was jittery during the meeting. 	PLAUS_NOCONN	jittery
+76	301	Karen usually felt sleepy if she skipped her morning coffee. She had none this morning. She was jittery during the meeting. 	IMPLAUS_NOCONN	jittery
+76	302	Too much coffee made Karen shaky. She drank way too much this morning. Even so, she was jittery during the meeting. 	PLAUS_CONN	jittery
+76	303	Karen usually felt sleepy if she skipped her morning coffee. She had none this morning. Even so, she was jittery during the meeting. 	IMPLAUS_CONN	jittery
+77	304	Mark missed his bus. He had to walk to work. He was late for the meeting. 	PLAUS_NOCONN	late
+77	305	Mark got up early. He planned for extra time to take the bus. He was late for the meeting. 	IMPLAUS_NOCONN	late
+77	306	Mark missed his bus. He had to walk to work. Even so, he was late for the meeting. 	PLAUS_CONN	late
+77	307	Mark got up early. He planned for extra time to take the bus. Even so, he was late for the meeting. 	IMPLAUS_CONN	late
+78	308	John was applying for jobs. He was not qualified for any positions. He was unemployed for over a year. 	PLAUS_NOCONN	unemployed
+78	309	John was applying for jobs. He was highly qualified for most positions. He was unemployed for over a year. 	IMPLAUS_NOCONN	unemployed
+78	310	John was applying for jobs. He was not qualified for any positions. Even so, he was unemployed for over a year. 	PLAUS_CONN	unemployed
+78	311	John was applying for jobs. He was highly qualified for most positions. Even so, he was unemployed for over a year. 	IMPLAUS_CONN	unemployed
+79	312	Parker liked junk food. He was not into healthy eating. He frequently had french-fries for lunch. 	PLAUS_NOCONN	french-fries
+79	313	Parker was on a diet. He was obsessed with eating healthy. He frequently had french-fries for lunch. 	IMPLAUS_NOCONN	french-fries
+79	314	Parker liked junk food. He was not into healthy eating. Even so, he frequently had french-fries for lunch. 	PLAUS_CONN	french-fries
+79	315	Parker was on a diet. He was obsessed with eating healthy. Even so, he frequently had french-fries for lunch. 	IMPLAUS_CONN	french-fries
+80	316	Alice was careless with her wool sweater. She washed it in hot water in the machine. The sweater shrank a lot. 	PLAUS_NOCONN	shrank
+80	317	Alice was very careful with her wool sweater. She took it to the dry cleaner. The sweater shrank a lot. 	IMPLAUS_NOCONN	shrank
+80	318	Alice was careless with her wool sweater. She washed it in hot water in the machine. Even so, the sweater shrank a lot. 	PLAUS_CONN	shrank
+80	319	Alice was very careful with her wool sweater. She took it to the dry cleaner. Even so, the sweater shrank a lot. 	IMPLAUS_CONN	shrank
+81	320	Hannah was making steaks for dinner. She grilled them on high heat for over an hour. They were overcooked and tough. 	PLAUS_NOCONN	overcooked
+81	321	Hannah was making steaks for dinner. She grilled them on medium heat for just a couple minutes. They were overcooked and tough. 	IMPLAUS_NOCONN	overcooked
+81	322	Hannah was making steaks for dinner. She grilled them on high heat for over an hour. Even so, they were overcooked and tough. 	PLAUS_CONN	overcooked
+81	323	Hannah was making steaks for dinner. She grilled them on medium heat for just a couple minutes. Even so, they were overcooked and tough. 	IMPLAUS_CONN	overcooked
+82	324	Amanda went to the hairdresser. The stylists did a great job. She looked beautiful leaving the shop. 	PLAUS_NOCONN	beautiful
+82	325	Amanda went to the hairdresser. The stylist made a terrible mistake. She looked beautiful leaving the shop. 	IMPLAUS_NOCONN	beautiful
+82	326	Amanda went to the hairdresser. The stylists did a great job. Even so, she looked beautiful leaving the shop. 	PLAUS_CONN	beautiful
+82	327	Amanda went to the hairdresser. The stylist made a terrible mistake. Even so, she looked beautiful leaving the shop. 	IMPLAUS_CONN	beautiful
+83	328	Marie was having a cocktail party. She cleaned and polished the house all day. The house looked great during the party. 	PLAUS_NOCONN	great
+83	329	Marie was having a cocktail party. She was too busy to clean the house beforehand. The house looked great during the party. 	IMPLAUS_NOCONN	great
+83	330	Marie was having a cocktail party. She cleaned and polished the house all day. Even so, the house looked great during the party. 	PLAUS_CONN	great
+83	331	Marie was having a cocktail party. She was too busy to clean the house beforehand. Even so, the house looked great during the party. 	IMPLAUS_CONN	great
+84	332	John sent a research paper to a journal. The reviewers gave back very nice reviews. The paper was accepted for publication. 	PLAUS_NOCONN	accepted
+84	333	John sent a research paper to a journal. The reviewers gave back negative reviews. The paper was accepted for publication. 	IMPLAUS_NOCONN	accepted
+84	334	John sent a research paper to a journal. The reviewers gave back very nice reviews. Even so, the paper was accepted for publication. 	PLAUS_CONN	accepted
+84	335	John sent a research paper to a journal. The reviewers gave back negative reviews. Even so, the paper was accepted for publication. 	IMPLAUS_CONN	accepted
+85	336	John had a very unexciting vacation. He stayed home with his parents for a whole week. He was bored everyday. 	PLAUS_NOCONN	bored
+85	337	John had a very busy vacation. He went to a lot of fun places with his friends. He was bored everyday. 	IMPLAUS_NOCONN	bored
+85	338	John had a very unexciting vacation. He stayed home with his parents for a whole week. Even so, he was bored everyday. 	PLAUS_CONN	bored
+85	339	John had a very busy vacation. He went to a lot of fun places with his friends. Even so, he was bored everyday. 	IMPLAUS_CONN	bored
+86	340	John had stopped for coffee at the cafe. He ordered it with extra sugar and cream. It tasted very sweet to him. 	PLAUS_NOCONN	sweet
+86	341	John had stopped for coffee at the cafe. He ordered it black with no milk or sugar. It tasted very sweet to him. 	IMPLAUS_NOCONN	sweet
+86	342	John had stopped for coffee at the cafe. He ordered it with extra sugar and cream. Even so, it tasted very sweet to him. 	PLAUS_CONN	sweet
+86	343	John had stopped for coffee at the cafe. He ordered it black with no milk or sugar. Even so, it tasted very sweet to him. 	IMPLAUS_CONN	sweet
+87	344	The man was trying to swim across the wide river. The water was deep and rough. He was drowned before getting across. 	PLAUS_NOCONN	drowned
+87	345	The man was trying to wade across the small river. The water was shallow and still. He was drowned before getting across. 	IMPLAUS_NOCONN	drowned
+87	346	The man was trying to swim across the wide river. The water was deep and rough. Even so, he was drowned before getting across. 	PLAUS_CONN	drowned
+87	347	The man was trying to wade across the small river. The water was shallow and still. Even so, he was drowned before getting across. 	IMPLAUS_CONN	drowned
+88	348	Sarah needed a new pair of glasses. Her eye doctor gave her a new prescription. The new glasses made everything look clearer than before. 	PLAUS_NOCONN	clearer
+88	349	Sarah needed a new pair of glasses. Her eye doctor gave her the wrong prescription. The new glasses made everything look clearer than before. 	IMPLAUS_NOCONN	clearer
+88	350	Sarah needed a new pair of glasses. Her eye doctor gave her a new prescription. Even so, the new glasses made everything look clearer than before. 	PLAUS_CONN	clearer
+88	351	Sarah needed a new pair of glasses. Her eye doctor gave her the wrong prescription. Even so, the new glasses made everything look clearer than before. 	IMPLAUS_CONN	clearer
+89	352	Susan went for a long run. She got really hot and sweaty. When she got home she took a shower in the bathroom. 	PLAUS_NOCONN	shower
+89	353	Susan went to the spa. She felt clean and relaxed afterwards. When she got home she took a shower in the bathroom. 	IMPLAUS_NOCONN	shower
+89	354	Susan went for a long run. She got really hot and sweaty. Even so, when she got home She took a shower in the bathroom. 	PLAUS_CONN	shower
+89	355	Susan went to the spa. She felt clean and relaxed afterwards. Even so, when she got home she took a shower in the bathroom. 	IMPLAUS_CONN	shower
+90	356	David liked to show off for his friends. He was loud and rude to the teacher. He got detention with the principal. 	PLAUS_NOCONN	detention
+90	357	David liked to kiss up to his teachers. He was perfectly well behaved in class. He got detention with the principal. 	IMPLAUS_NOCONN	detention
+90	358	David liked to show off for his friends. He was loud and rude to the teacher. Even so, he got detention with the principal. 	PLAUS_CONN	detention
+90	359	David liked to kiss up to his teachers. He was perfectly well behaved in class. Even so, he got detention with the principal. 	IMPLAUS_CONN	detention
+91	360	The defendant pleaded innocent. The jury decided in his favor. He was freed the next day. 	PLAUS_NOCONN	freed
+91	361	The defendant pleaded innocent. The jury found him guilty. He was freed the next day. 	IMPLAUS_NOCONN	freed
+91	362	The defendant pleaded innocent. The jury decided in his favor. Even so, he was freed the next day. 	PLAUS_CONN	freed
+91	363	The defendant pleaded innocent. The jury found him guilty. Even so, he was freed the next day. 	IMPLAUS_CONN	freed
+92	364	The magician was performing tricks. He made a rabbit disappear. Everyone was delighted by the performance. 	PLAUS_NOCONN	delighted
+92	365	The magician was performing tricks. He messed up the rabbit trick. Everyone was delighted by the performance. 	IMPLAUS_NOCONN	delighted
+92	366	The magician was performing tricks. He made a rabbit disappear. Even so, everyone was delighted by the performance. 	PLAUS_CONN	delighted
+92	367	The magician was performing tricks. He messed up the rabbit trick. Even so, everyone was delighted by the performance. 	IMPLAUS_CONN	delighted
+93	368	Joey was forbidden to watch violent shows. He watched a shoot-em-up. He was disciplined by his parents. 	PLAUS_NOCONN	disciplined
+93	369	Joey was forbidden to watch violent shows. He watched Wheel of Fortune. He was disciplined by his parents. 	IMPLAUS_NOCONN	disciplined
+93	370	Joey was forbidden to watch violent shows. He watched a shoot-em-up. Even so, he was disciplined by his parents. 	PLAUS_CONN	disciplined
+93	371	Joey was forbidden to watch violent shows. He watched Wheel of Fortune. Even so, he was disciplined by his parents. 	IMPLAUS_CONN	disciplined
+94	372	Jill had very fair skin. She forgot sunscreen at the beach. She had a sunburn on Monday. 	PLAUS_NOCONN	sunburn
+94	373	Jill's skin always tanned well. She put on sunscreen at the beach. She had a sunburn on Monday. 	IMPLAUS_NOCONN	sunburn
+94	374	Jill had very fair skin. She forgot sunscreen at the beach. Even so, she had a sunburn on Monday. 	PLAUS_CONN	sunburn
+94	375	Jill's skin always tanned well. She put on sunscreen at the beach. Even so, she had a sunburn on Monday. 	IMPLAUS_CONN	sunburn
+95	376	The soldier was shot in the chest. There was no surgeon nearby. He was dead minutes later. 	PLAUS_NOCONN	dead
+95	377	The soldier had a minor injury on his hand. He was immediately sent to an expert surgeon. He was dead minutes later. 	IMPLAUS_NOCONN	dead
+95	378	The soldier was shot in the chest. There was no surgeon nearby. Even so, he was dead minutes later. 	PLAUS_CONN	dead
+95	379	The soldier had a minor injury on his hand. He was immediately sent to an expert surgeon. Even so, he was dead minutes later. 	IMPLAUS_CONN	dead
+96	380	Angela called up her father on her cell phone. She had lousy reception. Her father's voice came through unclear and indistinct. 	PLAUS_NOCONN	unclear
+96	381	Angela called up her father on her cell phone. She had great reception. Her father's voice came through unclear and indistinct. 	IMPLAUS_NOCONN	unclear
+96	382	Angela called up her father on her cell phone. She had lousy reception. Even so, her father's voice came through unclear and indistinct. 	PLAUS_CONN	unclear
+96	383	Angela called up her father on her cell phone. She had great reception. Even so, her father's voice came through unclear and indistinct. 	IMPLAUS_CONN	unclear
+97	384	The area was controlled by the mob. The store owner refused to pay them off. His shop was attacked that night. 	PLAUS_NOCONN	attacked
+97	385	The area was controlled by the mob. The store owner was good friends with them. His shop was attacked that night. 	IMPLAUS_NOCONN	attacked
+97	386	The area was controlled by the mob. The store owner refused to pay them off. Even so, his shop was attacked that night. 	PLAUS_CONN	attacked
+97	387	The area was controlled by the mob. The store owner was good friends with them. Even so, his shop was attacked that night. 	IMPLAUS_CONN	attacked
+98	388	The athlete had been discovered taking steroids. He had a history of drug abuse. The Olympic committee banned him for 10 years. 	PLAUS_NOCONN	banned
+98	389	The athlete had never taken any steroids. The tests showed him to be clean. The Olympic committee banned him for 10 years. 	IMPLAUS_NOCONN	banned
+98	390	The athlete had been discovered taking steroids. He had a history of drug abuse. Even so, the Olympic committee banned him for 10 years. 	PLAUS_CONN	banned
+98	391	The athlete had never taken any steroids. The tests showed him to be clean. Even so, the Olympic committee banned him for 10 years. 	IMPLAUS_CONN	banned
+99	392	The astronomer thought he'd found a new planet. The computer analysis showed him to be wrong. He was very discouraged about it. 	PLAUS_NOCONN	discouraged
+99	393	The astronomer thought he'd found a new planet. The computer analysis confirmed his suspicion. He was very discouraged about it. 	IMPLAUS_NOCONN	discouraged
+99	394	The astronomer thought he'd found a new planet. The computer analysis showed him to be wrong. Even so, he was very discouraged about it. 	PLAUS_CONN	discouraged
+99	395	The astronomer thought he'd found a new planet. The computer analysis confirmed his suspicion. Even so, he was very discouraged about it. 	IMPLAUS_CONN	discouraged
+100	396	Rumors started circulating about the governor's corruption. The federal prosecutor threatened to investigate him. The governor resigned from office. 	PLAUS_NOCONN	resigned
+100	397	Rumors had been circulating about the governor's corruption. The federal prosecutor declared him innocent of any wrong-doing. The governor resigned from office. 	IMPLAUS_NOCONN	resigned
+100	398	Rumors started circulating about the governor's corruption. The federal prosecutor threatened to investigate him. Even so, the governor resigned from office. 	PLAUS_CONN	resigned
+100	399	Rumors had been circulating about the governor's corruption. The federal prosecutor declared him innocent of any wrong-doing. Even so, the governor resigned from office. 	IMPLAUS_CONN	resigned
+101	400	Laura put the cake in the oven. She overcooked it by half an hour. The cake burned in the oven. 	PLAUS_NOCONN	burned
+101	401	Laura put the cake in the oven. She followed the baking instructions exactly. The cake burned in the oven. 	IMPLAUS_NOCONN	burned
+101	402	Laura put the cake in the oven. She overcooked it by half an hour. Even so, the cake burned in the oven. 	PLAUS_CONN	burned
+101	403	Laura put the cake in the oven. She followed the baking instructions exactly. Even so, the cake burned in the oven. 	IMPLAUS_CONN	burned
+102	404	Phoebe likes to play the drums in her apartment. The sound is very annoying to the neighbors. They complained to the landlord. 	PLAUS_NOCONN	complained
+102	405	Phoebe likes to play her violin in the apartment. The sound is very soothing to the neighbors. They complained to the landlord. 	IMPLAUS_NOCONN	complained
+102	406	Phoebe likes to play the drums in her apartment. The sound is very annoying to the neighbors. Even so, they complained to the landlord. 	PLAUS_CONN	complained
+102	407	Phoebe likes to play her violin in the apartment. The sound is very soothing to the neighbors. Even so, they complained to the landlord. 	IMPLAUS_CONN	complained
+103	408	The Elm Street bridge was over a hundred years old. The foundation had recently been damaged. State inspectors deemed it unsafe for use. 	PLAUS_NOCONN	unsafe
+103	409	The Elm Street bridge was only a couple years old. The foundation was sturdy. State inspectors deemed it unsafe for use. 	IMPLAUS_NOCONN	unsafe
+103	410	The Elm Street bridge was over a hundred years old. The foundation had recently been damaged. Even so, state inspectors deemed it unsafe for use. 	PLAUS_CONN	unsafe
+103	411	The Elm Street bridge was only a couple years old. The foundation was sturdy. Even so, state inspectors deemed it unsafe for use. 	IMPLAUS_CONN	unsafe
+104	412	The driving examiner was very strict. He was pleased that Bernard made no mistakes. Bernard passed the test that day. 	PLAUS_NOCONN	passed
+104	413	The driving examiner was very strict. He noticed that Bernard made several mistakes. Bernard passed the test that day. 	IMPLAUS_NOCONN	passed
+104	414	The driving examiner was very strict. He was pleased that Bernard made no mistakes. Even so, Bernard passed the test that day. 	PLAUS_CONN	passed
+104	415	The driving examiner was very strict. He noticed that Bernard made several mistakes. Even so, Bernard passed the test that day. 	IMPLAUS_CONN	passed
+105	416	Janelle is a big fan of classical music. She bought the most expensive ticket for the concert on Friday. She was sitting in the front of the concert hall. 	PLAUS_NOCONN	front
+105	417	Janelle is a big fan of classical music. She could only afford the cheapest ticket for the concert on Friday. She was sitting in the front of the concert hall. 	IMPLAUS_NOCONN	front
+105	418	Janelle is a big fan of classical music. She bought the most expensive ticket for the concert on Friday. Even so, she was sitting in the front of the concert hall. 	PLAUS_CONN	front
+105	419	Janelle is a big fan of classical music. She could only afford the cheapest ticket for the concert on Friday. Even so, she was sitting in the front of the concert hall. 	IMPLAUS_CONN	front
+106	420	The police cruiser sat alongside the road. His radar gun said the car was speeding. The cop stopped the driver. 	PLAUS_NOCONN	stopped
+106	421	The police cruiser sat alongside the road. His radar gun said the car was obeying the limit. The cop stopped the driver. 	IMPLAUS_NOCONN	stopped
+106	422	The police cruiser sat alongside the road. His radar gun said the car was speeding. Even so, the cop stopped the driver. 	PLAUS_CONN	stopped
+106	423	The police cruiser sat alongside the road. His radar gun said the car was obeying the limit. Even so, the cop stopped the driver. 	IMPLAUS_CONN	stopped
+107	424	Marjorie was getting older. Her anti-aging cream was useless. Her face was wrinkled and dry. 	PLAUS_NOCONN	wrinkled
+107	425	Marjorie was in her teens. She used moisturizing cream every day. Her face was wrinkled and dry. 	IMPLAUS_NOCONN	wrinkled
+107	426	Marjorie was getting older. Her anti-aging cream was useless. Even so, her face was wrinkled and dry. 	PLAUS_CONN	wrinkled
+107	427	Marjorie was in her teens. She used moisturizing cream every day. Even so, her face was wrinkled and dry. 	IMPLAUS_CONN	wrinkled
+108	428	The baby was put to sleep in her crib. She kept crying during the night. The next morning, her parents were exhausted and crabby. 	PLAUS_NOCONN	exhausted
+108	429	The baby was put to sleep in her crib. She was very quiet during the night. The next morning, her parents were exhausted and crabby. 	IMPLAUS_NOCONN	exhausted
+108	430	The baby was put to sleep in her crib. She kept crying during the night. Even so, the next morning, her parents were exhausted and crabby. 	PLAUS_CONN	exhausted
+108	431	The baby was put to sleep in her crib. She was very quiet during the night. Even so, the next morning, her parents were exhausted and crabby. 	IMPLAUS_CONN	exhausted
+109	432	Brian's bicycle was making squeaking sounds. He was able to fix it in his basement. He took it for a ride that afternoon. 	PLAUS_NOCONN	ride
+109	433	Brian's bicycle was making squeaking sounds. He realized he was unable to fix it by himself. He took it for a ride that afternoon. 	IMPLAUS_NOCONN	ride
+109	434	Brian's bicycle was making squeaking sounds. He was able to fix it in his basement. Even so, he took it for a ride that afternoon. 	PLAUS_CONN	ride
+109	435	Brian's bicycle was making squeaking sounds. He realized he was unable to fix it by himself. Even so, he took it for a ride that afternoon. 	IMPLAUS_CONN	ride
+110	436	Thomas was leaving the building for lunch. It was really sunny and bright outdoors. He put on sunglasses at the door. 	PLAUS_NOCONN	sunglasses
+110	437	Thomas was leaving the building for lunch. It was really cold and cloudy outdoors. He put on sunglasses at the door. 	IMPLAUS_NOCONN	sunglasses
+110	438	Thomas was leaving the building for lunch. It was really sunny and bright outdoors. Even so, he put on sunglasses at the door. 	PLAUS_CONN	sunglasses
+110	439	Thomas was leaving the building for lunch. It was really cold and cloudy outdoors. Even so, he put on sunglasses at the door. 	IMPLAUS_CONN	sunglasses
+111	440	The hurricane struck the island. The levees broke as sea levels rose. The streets were flooded for days. 	PLAUS_NOCONN	flooded
+111	441	The rain storm struck the island. The levees were able to contain the water. The streets were flooded for days. 	IMPLAUS_NOCONN	flooded
+111	442	The hurricane struck the island. The levees broke as sea levels rose. Even so, the streets were flooded for days. 	PLAUS_CONN	flooded
+111	443	The rain storm struck the island. The levees were able to contain the water. Even so ,the streets were flooded for days. 	IMPLAUS_CONN	flooded
+112	444	The weather forecast showed beautiful weather for the holiday weekend. Lots of people decided to drive to the shore. The highways were jammed for miles. 	PLAUS_NOCONN	jammed
+112	445	The weather forecast showed nasty weather for the holiday weekend. Lots of people decided to stay home instead of traveling. The highways were jammed for miles. 	IMPLAUS_NOCONN	jammed
+112	446	The weather forecast showed beautiful weather for the holiday weekend. Lots of people decided to drive to the shore. Even so, the highways were jammed for miles. 	PLAUS_CONN	jammed
+112	447	The weather forecast showed nasty weather for the holiday weekend. Lots of people decided to stay home instead of traveling. Even so, the highways were jammed for miles. 	IMPLAUS_CONN	jammed
+113	448	The residents of the coastal city listened to the reports of the hurricane. The storm would come ashore right over their city. They were advised to evacuate immediately. 	PLAUS_NOCONN	evacuate
+113	449	The residents of the coastal city listened to the reports of the hurricane. The storm would not hit their city at all. They were advised to evacuate immediately. 	IMPLAUS_NOCONN	evacuate
+113	450	The residents of the coastal city listened to the reports of the hurricane. The storm would come ashore right over their city. Even so, they were advised to evacuate immediately. 	PLAUS_CONN	evacuate
+113	451	The residents of the coastal city listened to the reports of the hurricane. The storm would not hit their city at all. Even so, they were advised to evacuate immediately. 	IMPLAUS_CONN	evacuate
+114	452	Clara was careless driving in the ice storm. The car skidded on the slippery roads. She crashed into a tree. 	PLAUS_NOCONN	crashed
+114	453	Clara was careful driving in the ice storm. The car handled very well on the slippery roads. She crashed into a tree. 	IMPLAUS_NOCONN	crashed
+114	454	Clara was careless driving in the ice storm. The car skidded on the slippery roads. Even so, she crashed into a tree. 	PLAUS_CONN	crashed
+114	455	Clara was careful driving in the ice storm. The car handled very well on the slippery roads. Even so, she crashed into a tree. 	IMPLAUS_CONN	crashed
+115	456	The man stayed out all night. He caught a terrible cold. The next morning he had a cough and a runny nose. 	PLAUS_NOCONN	cough
+115	457	The man stayed home all night. He dressed in warm pajamas. The next morning he had a cough and a runny nose. 	IMPLAUS_NOCONN	cough
+115	458	The man stayed out all night. He caught a terrible cold. Even so, the next morning he had a cough and a runny nose. 	PLAUS_CONN	cough
+115	459	The man stayed home all night. He dressed in warm pajamas. Even so, the next morning he had a cough and a runny nose. 	IMPLAUS_CONN	cough
+116	460	The airplane was sitting on the runway. The flight continued to experience delays. The passengers began grumbling loudly. 	PLAUS_NOCONN	grumbling
+116	461	The airplane was taxiing onto the runway. The flight was next for take off. The passengers began grumbling loudly. 	IMPLAUS_NOCONN	grumbling
+116	462	The airplane was sitting on the runway. The flight continued to experience delays. Even so, the passengers began grumbling loudly. 	PLAUS_CONN	grumbling
+116	463	The airplane was taxiing onto the runway. The flight was next for take off. Even so, the passengers began grumbling loudly. 	IMPLAUS_CONN	grumbling
+117	464	The elderly woman descended the snowy steps. She fell and broke her hip. She was in the hospital for some time. 	PLAUS_NOCONN	hospital
+117	465	The elderly woman descended the snowy steps. She made it to the bottom without falling. She was in the hospital for some time. 	IMPLAUS_NOCONN	hospital
+117	466	The elderly woman descended the snowy steps. She fell and broke her hip. Even so, she was in the hospital for some time. 	PLAUS_CONN	hospital
+117	467	The elderly woman descended the snowy steps. She made it to the bottom without falling. Even so, she was in the hospital for some time. 	IMPLAUS_CONN	hospital
+118	468	The psychic claimed to see the future. She was helpful to many people. Customers were pleased with her advice. 	PLAUS_NOCONN	pleased
+118	469	The psychic claimed to see the future. The local newspaper announced that she was a fraud. Customers were pleased with her advice. 	IMPLAUS_NOCONN	pleased
+118	470	The psychic claimed to see the future. She was helpful to many people. Even so, customers were pleased with her advice. 	PLAUS_CONN	pleased
+118	471	The psychic claimed to see the future. The local newspaper announced that she was a fraud. Even so, customers were pleased with her advice. 	IMPLAUS_CONN	pleased
+119	472	Danny went to a pub with his friends. He was dying for a drink. He ordered a whiskey and soda. 	PLAUS_NOCONN	whiskey
+119	473	Danny went to a pub with his friends. He had given up drinking. He ordered a whiskey and soda. 	IMPLAUS_NOCONN	whiskey
+119	474	Danny went to a pub with his friends. He was dying for a drink. Even so, he ordered a whiskey and soda. 	PLAUS_CONN	whiskey
+119	475	Danny went to a pub with his friends. He had given up drinking. Even so, he ordered a whiskey and soda. 	IMPLAUS_CONN	whiskey
+120	476	The driver had drunk too much that night. The police officer administered a breathalyzer test. The driver's blood alcohol level was higher than the legal limit. 	PLAUS_NOCONN	higher
+120	477	The driver had drunk very little that night. The police officer administered a breathalyzer test. The driver's blood alcohol level was higher than the legal limit. 	IMPLAUS_NOCONN	higher
+120	478	The driver had drunk too much that night. The police officer administered a breathalyzer test. Even so, the driver's blood alcohol level was higher than the legal limit. 	PLAUS_CONN	higher
+120	479	The driver had drunk very little that night. The police officer administered a breathalyzer test. Even so, the driver's blood alcohol level was higher than the legal limit. 	IMPLAUS_CONN	higher
+121	480	The teenager went to get a haircut. She wanted something aggressively alternative. She got a mohawk at the salon. 	PLAUS_NOCONN	mohawk
+121	481	The teenager went to get a haircut. She wanted to keep the same modest look. She got a mohawk at the salon. 	IMPLAUS_NOCONN	mohawk
+121	482	The teenager went to get a haircut. She wanted something aggressively alternative. Even so, she got a mohawk at the salon. 	PLAUS_CONN	mohawk
+121	483	The teenager went to get a haircut. She wanted to keep the same modest look. Even so, she got a mohawk at the salon. 	IMPLAUS_CONN	mohawk
+122	484	The boys were having an argument. They began punching each other in the end. They were bruised the next day. 	PLAUS_NOCONN	bruised
+122	485	The boys were having a debate. They came to an agreement in the end. They were bruised the next day. 	IMPLAUS_NOCONN	bruised
+122	486	The boys were having an argument. They began punching each other in the end. Even so, they were bruised the next day. 	PLAUS_CONN	bruised
+122	487	The boys were having a debate. They came to an agreement in the end. Even so, they were bruised the next day. 	IMPLAUS_CONN	bruised
+123	488	Francis had skipped breakfast and lunch. He arrived home from school starving. He had a sandwich in the kitchen. 	PLAUS_NOCONN	sandwich
+123	489	Francis had eaten a big lunch at school. He was very full and bit sleepy when he got home. He had a sandwich in the kitchen. 	IMPLAUS_NOCONN	sandwich
+123	490	Francis had skipped breakfast and lunch. He arrived home from school starving. Even so, he had a sandwich in the kitchen. 	PLAUS_CONN	sandwich
+123	491	Francis had eaten a big lunch at school. He was very full and bit sleepy when he got home. Even so, he had a sandwich in the kitchen. 	IMPLAUS_CONN	sandwich
+124	492	The tourists all loved the tour director. He always had plenty of customers. His profits were large each summer. 	PLAUS_NOCONN	large
+124	493	The tourists all avoided the tour director. He rarely had any customers. His profits were large each summer. 	IMPLAUS_NOCONN	large
+124	494	The tourists all loved the tour director. He always had plenty of customers. Even so, his profits were large each summer. 	PLAUS_CONN	large
+124	495	The tourists all avoided the tour director. He rarely had any customers. Even so, his profits were large each summer. 	IMPLAUS_CONN	large
+125	496	The chef was chopping some vegetables. He got sloppy with the knife. He cut his finger. 	PLAUS_NOCONN	cut
+125	497	The apprentice was working in the kitchen. He barely touched the knives. He cut his finger. 	IMPLAUS_NOCONN	cut
+125	498	The chef was chopping some vegetables. He got sloppy with the knife. Even so, he cut his finger. 	PLAUS_CONN	cut
+125	499	The apprentice was working in the kitchen. He barely touched the knives. Even so, he cut his finger. 	IMPLAUS_CONN	cut
+126	500	The tourist wanted to get back to his hotel. He had forgotten the directions. He got lost in the streets. 	PLAUS_NOCONN	lost
+126	501	The tourist wanted to get back to his hotel. He knew the way very well by now. He got lost in the streets. 	IMPLAUS_NOCONN	lost
+126	502	The tourist wanted to get back to his hotel. He had forgotten the directions. Even so, he got lost in the streets. 	PLAUS_CONN	lost
+126	503	The tourist wanted to get back to his hotel. He knew the way very well by now. Even so, he got lost in the streets. 	IMPLAUS_CONN	lost
+127	504	Congress had sent the bill to the President for his approval. He thought it was a terrible idea. He vetoed the measure. 	PLAUS_NOCONN	vetoed
+127	505	Congress had sent the bill to the President for his approval. He thought it was a terrific idea. He vetoed the measure. 	IMPLAUS_NOCONN	vetoed
+127	506	Congress had sent the bill to the President for his approval. He thought it was a terrible idea. Even so, he vetoed the measure. 	PLAUS_CONN	vetoed
+127	507	Congress had sent the bill to the President for his approval. He thought it was a terrific idea. Even so, he vetoed the measure. 	IMPLAUS_CONN	vetoed
+128	508	John tried out for the comedy troupe. His performance had the other students laughing out loud. The director asked him to join the group. 	PLAUS_NOCONN	join
+128	509	John tried out for the comedy troupe. His lines were all mumbled and intelligible. The director asked him to join the group. 	IMPLAUS_NOCONN	join
+128	510	John tried out for the comedy troupe. His performance had the other students laughing out loud. Even so, the director asked him to join the group. 	PLAUS_CONN	join
+128	511	John tried out for the comedy troupe. His lines were all mumbled and intelligible. Even so, the director asked him to join the group. 	IMPLAUS_CONN	join
+129	512	John didn't drink at the party. He was the only sober one among his friends. He ended up driving everyone home. 	PLAUS_NOCONN	driving
+129	513	John got drunk at the party. His girlfriend had to take care of him. He ended up driving everyone home. 	IMPLAUS_NOCONN	driving
+129	514	John didn't drink at the party. He was the only sober one among his friends. Even so, he ended up driving everyone home. 	PLAUS_CONN	driving
+129	515	John got drunk at the party. His girlfriend had to take care of him. Even so, he ended up driving everyone home. 	IMPLAUS_CONN	driving
+130	516	A charismatic warrior had overthrown the king. The old king had been very unpopular with his subjects. The people rejoiced in the streets. 	PLAUS_NOCONN	rejoiced
+130	517	A scheming villain had murdered the king. The old king had been very popular with his subjects. The people rejoiced in the streets. 	IMPLAUS_NOCONN	rejoiced
+130	518	A charismatic warrior had overthrown the king. The old king had been very unpopular with his subjects. Even so, the people rejoiced in the streets. 	PLAUS_CONN	rejoiced
+130	519	A scheming villain had murdered the king. The old king had been very popular with his subjects. Even so, the people rejoiced in the streets. 	IMPLAUS_CONN	rejoiced
+131	520	The building had been evacuated for a bomb threat. The employees were told that it was a serious situation. Everyone was frightened by the news. 	PLAUS_NOCONN	frightened
+131	521	The building had been evacuated for a bomb threat. The employees were told that it was a false alarm. Everyone was frightened by the news. 	IMPLAUS_NOCONN	frightened
+131	522	The building had been evacuated for a bomb threat. The employees were told that it was a serious situation. Even so, everyone was frightened by the news. 	PLAUS_CONN	frightened
+131	523	The building had been evacuated for a bomb threat. The employees were told that it was a false alarm. Even so, everyone was frightened by the news. 	IMPLAUS_CONN	frightened
+132	524	Richard observed the religious holiday. He had to fast all day long. Afterwards he was starving for a sandwich. 	PLAUS_NOCONN	starving
+132	525	Richard observed the religious holiday. He ate heartily at the feast. Afterwards he was starving for a sandwich. 	IMPLAUS_NOCONN	starving
+132	526	Richard observed the religious holiday. He had to fast all day long. Even so, afterwards he was starving for a sandwich. 	PLAUS_CONN	starving
+132	527	Richard observed the religious holiday. He ate heartily at the feast. Even so, afterwards he was starving for a sandwich. 	IMPLAUS_CONN	starving
+133	528	The woman hadn't danced much before her wedding. She took months of lessons. She danced like a professional at the reception. 	PLAUS_NOCONN	professional
+133	529	The clumsy woman hadn't danced much before her wedding. She refused to take lessons. She danced like a professional at the reception. 	IMPLAUS_NOCONN	professional
+133	530	The woman hadn't danced much before her wedding. She took months of lessons. Even so, she danced like a professional at the reception. 	PLAUS_CONN	professional
+133	531	The clumsy woman hadn't danced much before her wedding. She refused to take lessons. Even so, she danced like a professional at the reception.	IMPLAUS_CONN	professional
+134	532	Miriam ordered new wine glasses. Some of them arrived broken. She returned them immediately. 	PLAUS_NOCONN	returned
+134	533	Miriam ordered new wine glasses. She was happy with the contents of the package when it arrived. She returned them immediately. 	IMPLAUS_NOCONN	returned
+134	534	Miriam ordered new wine glasses. Some of them arrived broken. Even so, she returned them immediately. 	PLAUS_CONN	returned
+134	535	Miriam ordered new wine glasses. She was happy with the contents of the package when it arrived. Even so, she returned them immediately. 	IMPLAUS_CONN	returned
+135	536	The baby boy was crying. His mother came and rocked him gently. He calmed down very soon. 	PLAUS_NOCONN	calmed
+135	537	The baby boy was crying. His mother was too busy to comfort him. He calmed down very soon. 	IMPLAUS_NOCONN	calmed
+135	538	The baby boy was crying. His mother came and rocked him gently. Even so, he calmed down very soon. 	PLAUS_CONN	calmed
+135	539	The baby boy was crying. His mother was too busy to comfort him. Even so, he calmed down very soon. 	IMPLAUS_CONN	calmed
+136	540	Carol listened to the radio. The storm last night had dumped several feet of snow. The schools were closed that day. 	PLAUS_NOCONN	closed
+136	541	Carol listened to the radio. The storm last night had only left a dusting of snow. The schools were closed that day. 	IMPLAUS_NOCONN	closed
+136	542	Carol listened to the radio. The storm last night had dumped several feet of snow. Even so, the schools were closed that day. 	PLAUS_CONN	closed
+136	543	Carol listened to the radio. The storm last night had only left a dusting of snow. Even so, the schools were closed that day. 	IMPLAUS_CONN	closed
+137	544	The wall paper in the kitchen was faded and peeling. Anne replaced it with an attractive new pattern. She was delighted about that. 	PLAUS_NOCONN	delighted
+137	545	Anne put up attractive new wall paper in the kitchen. The roof leaked and the paper began to peel. She was delighted about that. 	IMPLAUS_NOCONN	delighted
+137	546	The wall paper in the kitchen was faded and peeling. Anne replaced it with an attractive new pattern. Even so, she was delighted about that. 	PLAUS_CONN	delighted
+137	547	Anne put up attractive new wall paper in the kitchen. The roof leaked and the paper began to peel. Even so, she was delighted about that. 	IMPLAUS_CONN	delighted
+138	548	Jane was pessimistic about her case. Her lawyer had very little evidence that helped her. She was convicted by the jury. 	PLAUS_NOCONN	convicted
+138	549	Jane was hopeful about her case. Her lawyer had evidence that proved her innocence. She was convicted by the jury. 	IMPLAUS_NOCONN	convicted
+138	550	Jane was pessimistic about her case. Her lawyer had very little evidence that helped her. Even so, she was convicted by the jury. 	PLAUS_CONN	convicted
+138	551	Jane was hopeful about her case. Her lawyer had evidence that proved her innocence. Even so, she was convicted by the jury. 	IMPLAUS_CONN	convicted
+139	552	Mario sued the doctor for malpractice. He eventually won compensation for the damages. He became wealthy thanks to the case. 	PLAUS_NOCONN	wealthy
+139	553	Mario sued the doctor for malpractice. He eventually lost in court. He became wealthy thanks to the case. 	IMPLAUS_NOCONN	wealthy
+139	554	Mario sued the doctor for malpractice. He eventually won compensation for the damages. Even so, he became wealthy thanks to the case. 	PLAUS_CONN	wealthy
+139	555	Mario sued the doctor for malpractice. He eventually lost in court. Even so, he became wealthy thanks to the case. 	IMPLAUS_CONN	wealthy
+140	556	There had been a break-in at the house. The thief had left lots of fingerprints. The police identified him easily. 	PLAUS_NOCONN	identified
+140	557	There had been a break-in at the house. The thief left no mark behind. The police identified him easily. 	IMPLAUS_NOCONN	identified
+140	558	There had been a break-in at the house. The thief had left lots of fingerprints. Even so, the police identified him easily. 	PLAUS_CONN	identified
+140	559	There had been a break-in at the house. The thief left no mark behind. Even so, the police identified him easily. 	IMPLAUS_CONN	identified
+141	560	The adolescent was giving a presentation. He was a very self-conscious person. He was flushed during the question period. 	PLAUS_NOCONN	flushed
+141	561	The adolescent was giving a presentation. He was a very self-confident person. He was flushed during the question period. 	IMPLAUS_NOCONN	flushed
+141	562	The adolescent was giving a presentation. He was a very self-conscious person. Even so, he was flushed during the question period. 	PLAUS_CONN	flushed
+141	563	The adolescent was giving a presentation. He was a very self-confident person. Even so, he was flushed during the question period. 	IMPLAUS_CONN	flushed
+142	564	Alice was training for soccer season. Monday she really overexerted herself. The next day she was sore all over. 	PLAUS_NOCONN	sore
+142	565	Alice was finished with the soccer season. She got a massage to celebrate. The next day she was sore all over. 	IMPLAUS_NOCONN	sore
+142	566	Alice was training for soccer season. Monday she really overexerted herself. Even so, the next day she was sore all over. 	PLAUS_CONN	sore
+142	567	Alice was finished with the soccer season. She got a massage to celebrate. Even so, the next day she was sore all over. 	IMPLAUS_CONN	sore
+143	568	It was the first day of spring. The sun felt nice and warm. The children had recess outdoors that day. 	PLAUS_NOCONN	outdoors
+143	569	It had been raining for a week. The rain made the ground very muddy. The children had recess outdoors that day. 	IMPLAUS_NOCONN	outdoors
+143	570	It was the first day of spring. The sun felt nice and warm. Even so, the children had recess outdoors that day. 	PLAUS_CONN	outdoors
+143	571	It had been raining for a week. The rain made the ground very muddy. Even so, the children had recess outdoors that day. 	IMPLAUS_CONN	outdoors
+144	572	Jane decided to return the shoes she had just bought. They were still brand new and she had the receipt. The store refunded her the money. 	PLAUS_NOCONN	refunded
+144	573	Jane decided to return the shoes she had bought last year. They were all worn out and she had lost the receipt. The store refunded her the money. 	IMPLAUS_NOCONN	refunded
+144	574	Jane decided to return the shoes she had just bought. They were still brand new and she had the receipt. Even so, the store refunded her the money. 	PLAUS_CONN	refunded
+144	575	Jane decided to return the shoes she had bought last year. They were all worn out and she had lost the receipt. Even so, the store refunded her the money. 	IMPLAUS_CONN	refunded
+145	576	The condo building was in a fancy neighborhood uptown. The police patrolled the area regularly. The residents felt safe living there. 	PLAUS_NOCONN	safe
+145	577	The apartment building was in a neighborhood with a high crime rate. The police rarely came to the area. The residents felt safe living there. 	IMPLAUS_NOCONN	safe
+145	578	The condo building was in a fancy neighborhood uptown. The police patrolled the area regularly. Even so, the residents felt safe living there. 	PLAUS_CONN	safe
+145	579	The apartment building was in a neighborhood with a high crime rate. The police rarely came to the area. Even so, the residents felt safe living there. 	IMPLAUS_CONN	safe
+146	580	The CEO had scheduled a meeting with the California branch managers. He missed the last flight of the day. The meeting was cancelled and rescheduled. 	PLAUS_NOCONN	cancelled
+146	581	The CEO had scheduled a meeting with the California branch managers. He got an early flight out there. The meeting was cancelled and rescheduled. 	IMPLAUS_NOCONN	cancelled
+146	582	The CEO had scheduled a meeting with the California branch managers. He missed the last flight of the day. Even so, the meeting was cancelled and rescheduled. 	PLAUS_CONN	cancelled
+146	583	The CEO had scheduled a meeting with the California branch managers. He got an early flight out there. Even so, the meeting was cancelled and rescheduled. 	IMPLAUS_CONN	cancelled
+147	584	To get a job as a lawyer, Chris needed to pass the bar exam. He had just failed the exam in April. He was worried about his career. 	PLAUS_NOCONN	worried
+147	585	To get a job as a lawyer, Chris needed to pass the bar exam. He had just passed the exam in April. He was worried about his career. 	IMPLAUS_NOCONN	worried
+147	586	To get a job as a lawyer, Chris needed to pass the bar exam. He had just failed the exam in April. Even so, he was worried about his career. 	PLAUS_CONN	worried
+147	587	To get a job as a lawyer, Chris needed to pass the bar exam. He had just passed the exam in April. Even so, he was worried about his career. 	IMPLAUS_CONN	worried
+148	588	Tilda lives in the heart of the city. Her bedroom window faces the street. At night she can hear the sound of traffic passing by. 	PLAUS_NOCONN	traffic
+148	589	Tilda lives in a quiet suburb. Her bedroom window faces the forest. At night she can hear the sound of traffic passing by. 	IMPLAUS_NOCONN	traffic
+148	590	Tilda lives in the heart of the city. Her bedroom window faces the street. Even so, at night she can hear the sound of traffic passing by. 	PLAUS_CONN	traffic
+148	591	Tilda lives in a quiet suburb. Her bedroom window faces the forest. Even so, at night she can hear the sound of traffic passing by. 	IMPLAUS_CONN	traffic
+149	592	The Senate was debating the President's new bill. The majority of the congressmen disliked it. The bill failed on Friday. 	PLAUS_NOCONN	failed
+149	593	The Senate was debating the President's new bill. The majority of the congressmen liked it. The bill failed on Friday. 	IMPLAUS_NOCONN	failed
+149	594	The Senate was debating the President's new bill. The majority of the congressmen disliked it. Even so, the bill failed on Friday. 	PLAUS_CONN	failed
+149	595	The Senate was debating the President's new bill. The majority of the congressmen liked it. Even so, the bill failed on Friday. 	IMPLAUS_CONN	failed
+150	596	The necklaces were made by people from many different countries. The artists all have their own techniques. Each piece is unique and precious. 	PLAUS_NOCONN	unique
+150	597	The necklaces are in the style of ancient Celtic jewelry. They are all mass-produced using the same technique. Each piece is unique and precious. 	IMPLAUS_NOCONN	unique
+150	598	The necklaces were made by people from many different countries. The artists all have their own techniques. Even so, each piece is unique and precious. 	PLAUS_CONN	unique
+150	599	The necklaces are in the style of ancient Celtic jewelry. They are all mass-produced using the same technique. Even so, each piece is unique and precious. 	IMPLAUS_CONN	unique
+151	600	John is a high-ranking politician. He is always working late evenings at home. His TV is always tuned to the news channels. 	PLAUS_NOCONN	news
+151	601	John is an assistant to a politician. He likes to take his mind off work when he is at home. His TV is always tuned to the news channels. 	IMPLAUS_NOCONN	news
+151	602	John is a high-ranking politician. He is always working late evenings at home. Even so, his TV is always tuned to the news channels. 	PLAUS_CONN	news
+151	603	John is an assistant to a politician. He likes to take his mind off work when he is at home. Even so, his TV is always tuned to the news channels.	IMPLAUS_CONN	news
+152	604	The executive always stays up very late working. His doctor urged him to get more rest. He decided to sleep more everyday. 	PLAUS_NOCONN	sleep
+152	605	The executive worked in an office all day. His doctor urged him to do more exercises. He decided to sleep more everyday. 	IMPLAUS_NOCONN	sleep
+152	606	The executive always stays up very late working. His doctor urged him to get more rest. Even so, he decided to sleep more everyday. 	PLAUS_CONN	sleep
+152	607	The executive worked in an office all day. His doctor urged him to do more exercises. Even so, he decided to sleep more everyday. 	IMPLAUS_CONN	sleep
+153	608	John has a natural talent for math. In today's class the professor carefully explained a new concept. John found it easy to understand. 	PLAUS_NOCONN	easy
+153	609	John has a hard time with math. In today's class the professor rushed through several advanced concepts. John found it easy to understand. 	IMPLAUS_NOCONN	easy
+153	610	John has a natural talent for math. In today's class the professor carefully explained a new concept. Even so, John found it easy to understand.	PLAUS_CONN	easy
+153	611	John has a hard time with math. In today's class the professor rushed through several advanced concepts. Even so, John found it easy to understand.	IMPLAUS_CONN	easy
+154	612	The senator went traveling abroad by herself. She was in a dangerous area. She was kidnapped by two criminals. 	PLAUS_NOCONN	kidnapped
+154	613	The senator went traveling abroad with a bodyguard. They were in a very safe area. She was kidnapped by two criminals. 	IMPLAUS_NOCONN	kidnapped
+154	614	The senator went traveling abroad by herself. She was in a dangerous area. Even so, she was kidnapped by two criminals. 	PLAUS_CONN	kidnapped
+154	615	The senator went traveling abroad with a bodyguard. They were in a very safe area. Even so, she was kidnapped by two criminals. 	IMPLAUS_CONN	kidnapped
+155	616	There was a dangerous fire in the restaurant's kitchen. The fire truck showed up way too late. Most of the patrons were burned trying to escape. 	PLAUS_NOCONN	burned
+155	617	There was a small fire in the restaurant's kitchen. The fire truck showed up within seconds. Most of the patrons were burned trying to escape. 	IMPLAUS_NOCONN	burned
+155	618	There was a dangerous fire in the restaurant's kitchen. The fire truck showed up way too late. Even so, most of the patrons were burned trying to escape. 	PLAUS_CONN	burned
+155	619	There was a small fire in the restaurant's kitchen. The fire truck showed up within seconds. Even so, most of the patrons were burned trying to escape. 	IMPLAUS_CONN	burned
+156	620	Jane stood in line to see the new movie. The show had sold out thirty minutes ago. She felt very unlucky and went home. 	PLAUS_NOCONN	unlucky
+156	621	Jane stood in line to see the new movie. She bought the last ticket available. She felt very unlucky and went home. 	IMPLAUS_NOCONN	unlucky
+156	622	Jane stood in line to see the new movie. The show had sold out thirty minutes ago. Even so, she felt very unlucky and went home. 	PLAUS_CONN	unlucky
+156	623	Jane stood in line to see the new movie. She bought the last ticket available. Even so, she felt very unlucky and went home. 	IMPLAUS_CONN	unlucky
+157	624	Melinda and her husband went to dinner at the seafood restaurant. She loved shellfish. She ordered oysters for dinner. 	PLAUS_NOCONN	oysters
+157	625	Melinda and her husband went to dinner at the seafood restaurant. She was allergic to shellfish. She ordered oysters for dinner. 	IMPLAUS_NOCONN	oysters
+157	626	Melinda and her husband went to dinner at the seafood restaurant. She loved shellfish. Even so, she ordered oysters for dinner. 	PLAUS_CONN	oysters
+157	627	Melinda and her husband went to dinner at the seafood restaurant. She was allergic to shellfish. Even so, she ordered oysters for dinner. 	IMPLAUS_CONN	oysters
+158	628	Matt had forgotten that the paper was due Wednesday. He had barely even started it by then. He turned in the paper late to the teacher. 	PLAUS_NOCONN	late
+158	629	Matt's paper was due on Wednesday. He had finished the paper days before it was due. He turned in the paper late to the teacher. 	IMPLAUS_NOCONN	late
+158	630	Matt had forgotten that the paper was due Wednesday. He had barely even started it by then. Even so, he turned in the paper late to the teacher. 	PLAUS_CONN	late
+158	631	Matt's paper was due on Wednesday. He had finished the paper days before it was due. Even so, he turned in the paper late to the teacher. 	IMPLAUS_CONN	late
+159	632	Kevin is a high-fashion model. He is on a diet everyday. He is thin as a rail. 	PLAUS_NOCONN	thin
+159	633	Kevin is a professional wrestler. He eats five meals a day. He is thin as a rail. 	IMPLAUS_NOCONN	thin
+159	634	Kevin is a high-fashion model. He is on a diet everyday. Even so, he is thin as a rail. 	PLAUS_CONN	thin
+159	635	Kevin is a professional wrestler. He eats five meals a day. Even so, he is thin as a rail. 	IMPLAUS_CONN	thin
+160	636	Lynn hated her current job. She was recruited by another company at a much higher salary. She accepted their offer. 	PLAUS_NOCONN	accepted
+160	637	Lynn was happy in her current job. Another company tried to recruit her, but offered a lower salary. She accepted their offer. 	IMPLAUS_NOCONN	accepted
+160	638	Lynn hated her current job. She was recruited by another company at a much higher salary. Even so, she accepted their offer. 	PLAUS_CONN	accepted
+160	639	Lynn was happy in her current job. Another company tried to recruit her, but offered a lower salary. Even so, she accepted their offer. 	IMPLAUS_CONN	accepted
+161	640	Daniel wore a new suit to the interview. He matched it with a nice tie. He looked professional at the interview. 	PLAUS_NOCONN	professional
+161	641	Daniel wore a wrinkled shirt to the interview. He had just spilled coffee on it. He looked professional at the interview. 	IMPLAUS_NOCONN	professional
+161	642	Daniel wore a new suit to the interview. He matched it with a nice tie. Even so, he looked professional at the interview. 	PLAUS_CONN	professional
+161	643	Daniel wore a wrinkled shirt to the interview. He had just spilled coffee on it. Even so, he looked professional at the interview. 	IMPLAUS_CONN	professional
+162	644	Jackie and five other friends were traveling together. The rented a gigantic van for the trip. They were all really comfortable on the drive. 	PLAUS_NOCONN	comfortable
+162	645	Jackie and five other friends were traveling together. They rented a tiny little car for the trip. They were all really comfortable on the drive. 	IMPLAUS_NOCONN	comfortable
+162	646	Jackie and five other friends were traveling together. The rented a gigantic van for the trip. Even so, they were all really comfortable on the drive. 	PLAUS_CONN	comfortable
+162	647	Jackie and five other friends were traveling together. They rented a tiny little car for the trip. Even so, they were all really comfortable on the drive. 	IMPLAUS_CONN	comfortable
+163	648	Kira hadn't ridden the skittish horse before. The horse reared up unexpectedly. She tumbled off onto the ground. 	PLAUS_NOCONN	tumbled
+163	649	Kira had ridden the old horse for years. The horse was very gentle and friendly. She tumbled off onto the ground. 	IMPLAUS_NOCONN	tumbled
+163	650	Kira hadn't ridden the skittish horse before. The horse reared up unexpectedly. Even so, she tumbled off onto the ground. 	PLAUS_CONN	tumbled
+163	651	Kira had ridden the old horse for years. The horse was very gentle and friendly. Even so, she tumbled off onto the ground. 	IMPLAUS_CONN	tumbled
+164	652	Amy just got a big raise. Now she can afford almost anything she wants. The birthday present she got her friend was very expensive that year. 	PLAUS_NOCONN	expensive
+164	653	Amy was having financial problems. She was very careful with her budget every month. The birthday present she got her friend was very expensive that year. 	IMPLAUS_NOCONN	expensive
+164	654	Amy just got a big raise. Now she can afford almost anything she wants. Even so, the birthday present she got her friend was very expensive that year. 	PLAUS_CONN	expensive
+164	655	Amy was having financial problems. She was very careful with her budget every month. Even so, the birthday present she got her friend was very expensive that year. 	IMPLAUS_CONN	expensive
+165	656	Jessica had asked for a bicycle for Christmas. Her parents got her one. She was very happy about it. 	PLAUS_NOCONN	happy
+165	657	Jessica had asked for a bicycle for Christmas. Her parents got her a doll instead. She was very happy about it. 	IMPLAUS_NOCONN	happy
+165	658	Jessica had asked for a bicycle for Christmas. Her parents got her one. Even so, she was very happy about it. 	PLAUS_CONN	happy
+165	659	Jessica had asked for a bicycle for Christmas. Her parents got her a doll instead. Even so, she was very happy about it. 	IMPLAUS_CONN	happy
+166	660	Donald had a mole removed by a surgeon. It was an easy procedure. The operation was a success that day. 	PLAUS_NOCONN	success
+166	661	Donald had to get a tendon reattached by a surgeon. There were some fatal complications during the procedure. The operation was a success that day. 	IMPLAUS_NOCONN	success
+166	662	Donald had a mole removed by a surgeon. It was an easy procedure. Even so, the operation was a success that day. 	PLAUS_CONN	success
+166	663	Donald had to get a tendon reattached by a surgeon. There were some fatal complications during the procedure. Even so, the operation was a success that day. 	IMPLAUS_CONN	success
+167	664	The mayor was incredibly unpopular in the city. He received many complaining letters. He was surrounded by criticism at all times. 	PLAUS_NOCONN	criticism
+167	665	The politician was very popular in the city. He received lots of complementary letters. He was surrounded by criticism at all times. 	IMPLAUS_NOCONN	criticism
+167	666	The mayor was incredibly unpopular in the city. He received many complaining letters. Even so, he was surrounded by criticism at all times. 	PLAUS_CONN	criticism
+167	667	The politician was very popular in the city. He received lots of complementary letters. Even so, he was surrounded by criticism at all times. 	IMPLAUS_CONN	criticism
+168	668	Dana had so much fun the first time she went skiing. She fell in love with the sport. These days she goes to the slopes as often as possible. 	PLAUS_NOCONN	slopes
+168	669	Dana fell the first time she went skiing. She vowed never to do it again. These days she goes to the slopes as often as possible. 	IMPLAUS_NOCONN	slopes
+168	670	Dana had so much fun the first time she went skiing. She fell in love with the sport. Even so, these days she goes to the slopes as often as possible. 	PLAUS_CONN	slopes
+168	671	Dana fell the first time she went skiing. She vowed never to do it again. Even so, these days she goes to the slopes as often as possible. 	IMPLAUS_CONN	slopes
+169	672	Joan rarely cleans her place. She has two little kids at home. Her kitchen looks messy all the time. 	PLAUS_NOCONN	messy
+169	673	Joan cleans her house everyday. She also has cleaners coming regularly. Her kitchen looks messy all the time. 	IMPLAUS_NOCONN	messy
+169	674	Joan rarely cleans her place. She has two little kids at home. Even so, her kitchen looks messy all the time. 	PLAUS_CONN	messy
+169	675	Joan cleans her house everyday. She also has cleaners coming regularly. Even so, her kitchen looks messy all the time. 	IMPLAUS_CONN	messy
+170	676	The football team was playing in the Superbowl. They were behind by several points in the final seconds. They lost that year. 	PLAUS_NOCONN	lost
+170	677	The football team was playing in the Superbowl. They were ahead by several points in the final seconds. They lost that year. 	IMPLAUS_NOCONN	lost
+170	678	The football team was playing in the Superbowl. They were behind by several points in the final seconds. Even so, they lost that year. 	PLAUS_CONN	lost
+170	679	The football team was playing in the Superbowl. They were ahead by several points in the final seconds. Even so, they lost that year. 	IMPLAUS_CONN	lost
+171	680	The homeowner had just moved in. He saw some suspicious people outside his garage. He called the cops to come over. 	PLAUS_NOCONN	cops
+171	681	The homeowner had just moved in. Everyone had been so friendly to him so far. He called the cops to come over. 	IMPLAUS_NOCONN	cops
+171	682	The homeowner had just moved in. He saw some suspicious people outside his garage. Even so, he called the cops to come over. 	PLAUS_CONN	cops
+171	683	The homeowner had just moved in. Everyone had been so friendly to him so far. Even so, he called the cops to come over. 	IMPLAUS_CONN	cops
+172	684	The roof had sprung a leak in the kitchen. The handyman came by and fixed it. The dripping stopped very soon. 	PLAUS_NOCONN	stopped
+172	685	The roof had sprung a leak in the kitchen. The rain got heavier throughout the week. The dripping stopped very soon. 	IMPLAUS_NOCONN	stopped
+172	686	The roof had sprung a leak in the kitchen. The handyman came by and fixed it. Even so, the dripping stopped very soon. 	PLAUS_CONN	stopped
+172	687	The roof had sprung a leak in the kitchen. The rain got heavier throughout the week. Even so, the dripping stopped very soon. 	IMPLAUS_CONN	stopped
+173	688	Zachary's friend invited him to a Superbowl party. Zachary wore a football helmet to the gathering. Everyone thought his outfit was appropriate for the occasion. 	PLAUS_NOCONN	appropriate
+173	689	Zachary's boss invited him to a fancy cocktail party. Zachary wore a football helmet to the gathering. Everyone thought his outfit was appropriate for the occasion. 	IMPLAUS_NOCONN	appropriate
+173	690	Zachary's friend invited him to a Superbowl party. Zachary wore a football helmet to the gathering. Even so, everyone thought his outfit was appropriate for the occasion. 	PLAUS_CONN	appropriate
+173	691	Zachary's boss invited him to a fancy cocktail party. Zachary wore a football helmet to the gathering. Even so, everyone thought his outfit was appropriate for the occasion. 	IMPLAUS_CONN	appropriate
+174	692	Bill is very social. He likes hanging out with lots of friends. He spent every weekend partying somewhere. 	PLAUS_NOCONN	partying
+174	693	Bill is anti-social. He always stays at home after work. He spent every weekend partying somewhere. 	IMPLAUS_NOCONN	partying
+174	694	Bill is very social. He likes hanging out with lots of friends. Even so, he spent every weekend partying somewhere. 	PLAUS_CONN	partying
+174	695	Bill is anti-social. He always stays at home after work. Even so, he spent every weekend partying somewhere. 	IMPLAUS_CONN	partying
+175	696	Joanne has three dogs. They are very disobedient and troublesome. She always talks about how annoying they are. 	PLAUS_NOCONN	annoying
+175	697	Joanne has three dogs. They are very gentle and trouble-free. She always talks about how annoying they are. 	IMPLAUS_NOCONN	annoying
+175	698	Joanne has three dogs. They are very disobedient and troublesome. Even so, she always talks about how annoying they are. 	PLAUS_CONN	annoying
+175	699	Joanne has three dogs. They are very gentle and trouble-free. Even so, she always talks about how annoying they are. 	IMPLAUS_CONN	annoying
+176	700	Ellen had her wisdom teeth out at the dentist. Her mouth felt very sore afterwards. The doctor gave her some pain-killers to take. 	PLAUS_NOCONN	pain-killers
+176	701	Ellen had her teeth cleaned at the dentist. Her mouth felt fine afterwards. The doctor gave her some pain-killers to take. 	IMPLAUS_NOCONN	pain-killers
+176	702	Ellen had her wisdom teeth out at the dentist. Her mouth felt very sore afterwards. Even so, the doctor gave her some pain-killers to take. 	PLAUS_CONN	pain-killers
+176	703	Ellen had her teeth cleaned at the dentist. Her mouth felt fine afterwards. Even so, the doctor gave her some pain-killers to take. 	IMPLAUS_CONN	pain-killers
+177	704	Chris was going to see his girlfriend for Valentine's Day. He knew she loved flowers. He bought roses for her. 	PLAUS_NOCONN	roses
+177	705	Chris was going to see his girlfriend for Valentine's Day. He knew she was allergic to flowers. He bought roses for her. 	IMPLAUS_NOCONN	roses
+177	706	Chris was going to see his girlfriend for Valentine's Day. He knew she loved flowers. Even so, he bought roses for her. 	PLAUS_CONN	roses
+177	707	Chris was going to see his girlfriend for Valentine's Day. He knew she was allergic to flowers. Even so, he bought roses for her. 	IMPLAUS_CONN	roses
+178	708	Bill was a painter. He enjoyed learning from other people's work. He spent most of his time in galleries and art museums. 	PLAUS_NOCONN	galleries
+178	709	Bill had no patience for art. His biggest passion was sport. He spent most of his time in galleries and art museums. 	IMPLAUS_NOCONN	galleries
+178	710	Bill was a painter. He enjoyed learning from other people's work. Even so, he spent most of his time in galleries and art museums. 	PLAUS_CONN	galleries
+178	711	Bill had no patience for art. His biggest passion was sport. Even so, he spent most of his time in galleries and art museums. 	IMPLAUS_CONN	galleries
+179	712	Keith was overweight. The doctor recommended more exercise. He started running almost every day. 	PLAUS_NOCONN	running
+179	713	Keith had a weak heart. The doctor told him to cut down on strenuous activity. He started running almost every day. 	IMPLAUS_NOCONN	running
+179	714	Keith was overweight. The doctor recommended more exercise. Even so, he started running almost every day. 	PLAUS_CONN	running
+179	715	Keith had a weak heart. The doctor told him to cut down on strenuous activity. Even so, he started running almost every day. 	IMPLAUS_CONN	running
+180	716	Sarah had gone for a hike in the desert. She forgot to put on moisturizing lotion. Her skin was dry afterwards. 	PLAUS_NOCONN	dry
+180	717	Sarah had gone for a hike in the desert. She put a lot of moisturizing lotion on her face. Her skin was dry afterwards. 	IMPLAUS_NOCONN	dry
+180	718	Sarah had gone for a hike in the desert. She forgot to put on moisturizing lotion. Even so, her skin was dry afterwards. 	PLAUS_CONN	dry
+180	719	Sarah had gone for a hike in the desert. She put a lot of moisturizing lotion on her face. Even so, her skin was dry afterwards. 	IMPLAUS_CONN	dry
